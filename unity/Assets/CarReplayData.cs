@@ -12,22 +12,27 @@ public class CarPosition
     public string type;
     public string car_actor;
     public bool sleeping;
-    public RotationData rotation;
-    public VelocityData linear_velocity;
-    public VelocityData angular_velocity;
+    public CarRotation rotation;
+    public CarVelocity linear_velocity;
+    public CarVelocity angular_velocity;
 }
 
 [System.Serializable]
-public class RotationData
+public class CarRotation
 {
+    // For quaternion format (update positions)
     public float x;
     public float y;
     public float z;
     public float w;
+    // For Euler/Yaw-Pitch-Roll format (initial positions, etc)
+    public float yaw;
+    public float pitch;
+    public float roll;
 }
 
 [System.Serializable]
-public class VelocityData
+public class CarVelocity
 {
     public float x;
     public float y;
@@ -35,7 +40,7 @@ public class VelocityData
 }
 
 [System.Serializable]
-public class PlayerInfo
+public class CarPlayerInfo
 {
     public int team;
     public int score;
@@ -46,9 +51,9 @@ public class PlayerInfo
 }
 
 [System.Serializable]
-public class PlayerData
+public class CarPlayerData
 {
-    public PlayerInfo player_info;
+    public CarPlayerInfo player_info;
     public List<string> cars_used;
     public int total_positions;
     public int active_positions;
@@ -56,7 +61,7 @@ public class PlayerData
 }
 
 [System.Serializable]
-public class ReplayInfo
+public class CarReplayInfo
 {
     public string game_type;
     public float total_seconds;
@@ -69,8 +74,8 @@ public class ReplayInfo
 [System.Serializable]
 public class CarsReplayData
 {
-    public ReplayInfo replay_info;
+    public CarReplayInfo replay_info;
     public int total_players;
     public int total_positions;
-    public Dictionary<string, PlayerData> players;
+    public Dictionary<string, CarPlayerData> players; // this matches your JSON object
 }
