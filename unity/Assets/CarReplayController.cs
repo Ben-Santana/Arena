@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using Newtonsoft.Json;
 
 public class CarReplayController : MonoBehaviour
 {
@@ -45,7 +46,7 @@ public class CarReplayController : MonoBehaviour
 
         try
         {
-            replayData = JsonUtility.FromJson<CarsReplayData>(carsJsonFile.text);
+            replayData = JsonConvert.DeserializeObject<CarsReplayData>(carsJsonFile.text);
             Debug.Log($"Loaded replay with {replayData.total_players} players");
 
             // --- Debug check for missing critical data in positions ---
