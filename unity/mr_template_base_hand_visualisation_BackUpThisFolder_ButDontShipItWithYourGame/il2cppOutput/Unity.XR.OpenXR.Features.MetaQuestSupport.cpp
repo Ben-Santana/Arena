@@ -263,7 +263,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRFeature__ctor_m120460E34ECC22ED2DB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109179
+// Method Definition Index: 120098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t0A7F5C974900B27D10C1135E5156C84A39B35F16 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m99A7B3AC25F4C76D58D4951F44D7103BB35150BF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -306,7 +306,7 @@ IL_005a:
 		return L_7;
 	}
 }
-// Method Definition Index: 109180
+// Method Definition Index: 120099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m45473328113F62598D5D0C90F91FCCAAC0963EDB (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t72555D947101325108B723AB539C899AC4B80002* __this, const RuntimeMethod* method) 
 {
 	{
@@ -392,7 +392,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t0A7F5C974900B27D10C1135E5156C84A39B35F16_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109181
+// Method Definition Index: 120100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetaQuestFeature_OnBeforeSerialize_mBDBD9B1831B675B51E313203F4085B9E323F986D (MetaQuestFeature_t8E2B25DD2DCD3C6B43B6AA0B69C4504566363C62* __this, const RuntimeMethod* method) 
 {
 	{
@@ -400,7 +400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetaQuestFeature_OnBeforeSerialize_mBDBD
 		return;
 	}
 }
-// Method Definition Index: 109182
+// Method Definition Index: 120101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetaQuestFeature_OnAfterDeserialize_m6CEC9A834FF816944D60749296CF1E826441718E (MetaQuestFeature_t8E2B25DD2DCD3C6B43B6AA0B69C4504566363C62* __this, const RuntimeMethod* method) 
 {
 	{
@@ -408,7 +408,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetaQuestFeature_OnAfterDeserialize_m6CE
 		return;
 	}
 }
-// Method Definition Index: 109183
+// Method Definition Index: 120102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetaQuestFeature__ctor_m5252F2B3583ED0398B5E04ECE2892C240D4F4E63 (MetaQuestFeature_t8E2B25DD2DCD3C6B43B6AA0B69C4504566363C62* __this, const RuntimeMethod* method) 
 {
 	{
