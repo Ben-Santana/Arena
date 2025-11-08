@@ -1,0 +1,31 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Park_Assets.Textures.Park_BannerScaffold_N'
+    ReferencedTextures[1] = Texture2D'Park_Assets.Textures.Park_BannerScaffold_D'
+}
+Expressions[59] =
+{
+    Expressions[2] = MaterialExpressionScalarParameter'Park_Assets.Mat.Basic_Orange_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[49] = MaterialExpressionScalarParameter'Park_Assets.Mat.Basic_Orange_Mat.MaterialExpressionScalarParameter_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=WindInt, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=ENVAmount, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

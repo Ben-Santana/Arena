@@ -1,0 +1,41 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'Detail_BrushesMetal.BrushedMetal_N' }
+Expressions[23] =
+{
+    Expressions[15] = MaterialExpressionScalarParameter'Stadiums_IVTK.DarkMetal_SeeThru_Mat_IVTK.MaterialExpressionScalarParameter_16'
+    Expressions[16] = MaterialExpressionScalarParameter'Stadiums_IVTK.DarkMetal_SeeThru_Mat_IVTK.MaterialExpressionScalarParameter_17'
+    Expressions[17] = MaterialExpressionScalarParameter'Stadiums_IVTK.DarkMetal_SeeThru_Mat_IVTK.MaterialExpressionScalarParameter_18'
+    Expressions[18] = MaterialExpressionScalarParameter'Stadiums_IVTK.DarkMetal_SeeThru_Mat_IVTK.MaterialExpressionScalarParameter_19'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=Gradient Falloff, Group=InvisiTek }
+    CollectedScalarParameters[1] =
+    {
+        Value = -0.1
+        Name = Gradient Size Adjust
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 20
+        Name = Fresnel Intensity
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[3] = { Value=3, Name=Fresnel Power, Group=InvisiTek }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,31 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[3] = { Texture2D'Grass_Textures.Grass_Strip' }
+Expressions[122] =
+{
+    Expressions[26] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_OLD_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[52] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_OLD_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[55] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_OLD_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[56] = MaterialExpressionTextureSampleParameter2D'Grass.Materials.GroomedGrass_OLD_Mat.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[59] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_OLD_Mat.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[89] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_OLD_Mat.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[96] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_OLD_Mat.MaterialExpressionStaticSwitchParameter_5'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.1
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=Diffuse, Group=None }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

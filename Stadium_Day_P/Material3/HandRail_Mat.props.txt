@@ -1,0 +1,23 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] = { Texture2D'Stadium_Textures.HandRail_D' }
+Expressions[28] =
+{
+    Expressions[24] = MaterialExpressionStaticSwitchParameter'Stadium.Materials.HandRail_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[25] = MaterialExpressionStaticSwitchParameter'Stadium.Materials.HandRail_Mat.MaterialExpressionStaticSwitchParameter_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

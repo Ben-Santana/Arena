@@ -1,0 +1,42 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[1] = Texture2D'Pickup_Boost_Textures.BoostPad_Large_D'
+}
+Expressions[31] =
+{
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Pickup_Boost.Materials.BoostPad_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[12] = MaterialExpressionTextureSampleParameter2D'Pickup_Boost.Materials.BoostPad_Mat.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[25] = MaterialExpressionStaticSwitchParameter'Pickup_Boost.Materials.BoostPad_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[29] = MaterialExpressionStaticSwitchParameter'Pickup_Boost.Materials.BoostPad_Mat.MaterialExpressionStaticSwitchParameter_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Pickup_Boost_Textures.BoostPad_Large_D'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Pickup_Boost_Textures.BoostPad_Large_D'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

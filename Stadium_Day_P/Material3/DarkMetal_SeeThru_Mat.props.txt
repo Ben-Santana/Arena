@@ -1,0 +1,40 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'Detail_BrushesMetal.BrushedMetal_N' }
+Expressions[19] =
+{
+    Expressions[8] = MaterialExpressionScalarParameter'FutureTech.Materials.DarkMetal_SeeThru_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[9] = MaterialExpressionVectorParameter'FutureTech.Materials.DarkMetal_SeeThru_Mat.MaterialExpressionVectorParameter_1'
+    Expressions[10] = MaterialExpressionTextureSampleParameter2D'FutureTech.Materials.DarkMetal_SeeThru_Mat.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[12] = MaterialExpressionStaticSwitchParameter'FutureTech.Materials.DarkMetal_SeeThru_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[13] = MaterialExpressionStaticSwitchParameter'FutureTech.Materials.DarkMetal_SeeThru_Mat.MaterialExpressionStaticSwitchParameter_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=WetMask, Group=None }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=ENVBrightness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.83922, B=0.558027, A=1 }
+        Name = EnvironmentColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

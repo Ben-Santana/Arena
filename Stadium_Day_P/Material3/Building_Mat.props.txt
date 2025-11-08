@@ -1,0 +1,96 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'City_Textures.Building_A_Pack'
+    ReferencedTextures[1] = Texture2D'Sky_PartlyCloudy_Assets.Textures.ENV_PartlyCloudy'
+}
+Expressions[99] =
+{
+    Expressions[13] = MaterialExpressionTextureSampleParameter2D'City.Materials.Building_Mat.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[14] = MaterialExpressionStaticSwitchParameter'City.Materials.Building_Mat.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[26] = MaterialExpressionScalarParameter'City.Materials.Building_Mat.MaterialExpressionScalarParameter_2'
+    Expressions[30] = MaterialExpressionScalarParameter'City.Materials.Building_Mat.MaterialExpressionScalarParameter_3'
+    Expressions[38] = MaterialExpressionStaticSwitchParameter'City.Materials.Building_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[39] = MaterialExpressionTextureSampleParameter2D'City.Materials.Building_Mat.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[44] = MaterialExpressionStaticSwitchParameter'City.Materials.Building_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[53] = MaterialExpressionStaticSwitchParameter'City.Materials.Building_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[54] = MaterialExpressionStaticSwitchParameter'City.Materials.Building_Mat.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[55] = MaterialExpressionVectorParameter'City.Materials.Building_Mat.MaterialExpressionVectorParameter_2'
+    Expressions[68] = MaterialExpressionTextureSampleParameter2D'City.Materials.Building_Mat.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[69] = MaterialExpressionStaticSwitchParameter'City.Materials.Building_Mat.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[78] = MaterialExpressionStaticSwitchParameter'City.Materials.Building_Mat.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[79] = MaterialExpressionScalarParameter'City.Materials.Building_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[82] = MaterialExpressionTextureSampleParameter2D'City.Materials.Building_Mat.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[83] = MaterialExpressionStaticSwitchParameter'City.Materials.Building_Mat.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[89] = MaterialExpressionVectorParameter'City.Materials.Building_Mat.MaterialExpressionVectorParameter_0'
+    Expressions[92] = MaterialExpressionScalarParameter'City.Materials.Building_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[94] = MaterialExpressionVectorParameter'City.Materials.Building_Mat.MaterialExpressionVectorParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'City_Textures.Building_A_Pack'
+        Name = Masks
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Sky_PartlyCloudy_Assets.Textures.ENV_PartlyCloudy'
+        Name = ENV
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'City_Textures.Building_A_Pack'
+        Name = Masks
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'City_Textures.Building_A_Pack'
+        Name = Masks
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=AOHeight, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=ENVAmount, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=LightsOn, Group=None }
+    CollectedScalarParameters[3] = { Value=0.03125, Name=None, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.497219, G=0.437252, B=0.298689, A=0.85 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.0625, G=0.0625, B=0.0625, A=0.2 }
+        Name = FloorColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.00552466, G=0.00552466, B=0.00552466, A=1 }
+        Name = WindowColorA
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

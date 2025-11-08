@@ -1,0 +1,33 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'General_FX.Mat.Swirls02_N'
+    ReferencedTextures[1] = Texture2D'Park_Assets.Textures.Park_BannerFlag00_RGB'
+}
+Expressions[68] =
+{
+    Expressions[11] = MaterialExpressionScalarParameter'Park_Assets.Mat.MAT_Park_BannerFlag00.MaterialExpressionScalarParameter_6'
+    Expressions[46] = MaterialExpressionStaticSwitchParameter'Park_Assets.Mat.MAT_Park_BannerFlag00.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[52] = MaterialExpressionStaticSwitchParameter'Park_Assets.Mat.MAT_Park_BannerFlag00.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[63] = MaterialExpressionScalarParameter'Park_Assets.Mat.MAT_Park_BannerFlag00.MaterialExpressionScalarParameter_4'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=WindInt, Group=None }
+    CollectedScalarParameters[1] = { Value=0.25, Name=ENVAmount, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

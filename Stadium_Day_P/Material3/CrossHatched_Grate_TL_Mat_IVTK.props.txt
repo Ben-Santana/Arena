@@ -1,0 +1,52 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'TiledPatterns.Grate_Square_N'
+    ReferencedTextures[3] = Texture2D'TiledPatterns.Grate_Square_Pack'
+}
+Expressions[50] =
+{
+    Expressions[19] = MaterialExpressionStaticSwitchParameter'Stadium_Park_IVTK.CrossHatched_Grate_TL_Mat_IVTK.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[25] = MaterialExpressionTextureSampleParameter2D'Stadium_Park_IVTK.CrossHatched_Grate_TL_Mat_IVTK.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[26] = MaterialExpressionStaticSwitchParameter'Stadium_Park_IVTK.CrossHatched_Grate_TL_Mat_IVTK.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[39] = MaterialExpressionStaticSwitchParameter'Stadium_Park_IVTK.CrossHatched_Grate_TL_Mat_IVTK.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[42] = MaterialExpressionScalarParameter'Stadium_Park_IVTK.CrossHatched_Grate_TL_Mat_IVTK.MaterialExpressionScalarParameter_8'
+    Expressions[43] = MaterialExpressionScalarParameter'Stadium_Park_IVTK.CrossHatched_Grate_TL_Mat_IVTK.MaterialExpressionScalarParameter_9'
+    Expressions[44] = MaterialExpressionScalarParameter'Stadium_Park_IVTK.CrossHatched_Grate_TL_Mat_IVTK.MaterialExpressionScalarParameter_10'
+    Expressions[45] = MaterialExpressionScalarParameter'Stadium_Park_IVTK.CrossHatched_Grate_TL_Mat_IVTK.MaterialExpressionScalarParameter_11'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.0625
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=WetMask, Group=None }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=Gradient Falloff, Group=InvisiTek }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.05
+        Name = Gradient Size Adjust
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 20
+        Name = Fresnel Intensity
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[3] = { Value=3, Name=Fresnel Power, Group=InvisiTek }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

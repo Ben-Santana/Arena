@@ -1,0 +1,102 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] = { Texture2D'Terrain_Textures.RockyDirt_N' }
+Expressions[224] =
+{
+    Expressions[4] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_41'
+    Expressions[8] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_39'
+    Expressions[10] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_40'
+    Expressions[16] = MaterialExpressionScalarParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionScalarParameter_9'
+    Expressions[27] = MaterialExpressionScalarParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionScalarParameter_6'
+    Expressions[31] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_29'
+    Expressions[35] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_23'
+    Expressions[43] = MaterialExpressionTextureSampleParameter2D'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[44] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_22'
+    Expressions[45] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_25'
+    Expressions[46] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_26'
+    Expressions[55] = MaterialExpressionScalarParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionScalarParameter_4'
+    Expressions[76] = MaterialExpressionScalarParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionScalarParameter_5'
+    Expressions[94] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_14'
+    Expressions[113] = MaterialExpressionVectorParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionVectorParameter_2'
+    Expressions[125] = MaterialExpressionVectorParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionVectorParameter_3'
+    Expressions[126] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_21'
+    Expressions[127] = MaterialExpressionTextureSampleParameter2D'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionTextureSampleParameter2D_8'
+    Expressions[128] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_27'
+    Expressions[140] = MaterialExpressionTextureSampleParameter2D'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[146] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_24'
+    Expressions[159] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[169] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[170] = MaterialExpressionTextureSampleParameter2D'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[171] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[182] = MaterialExpressionTextureSampleParameter2D'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[183] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[190] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[191] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_12'
+    Expressions[194] = MaterialExpressionTextureSampleParameter2D'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[195] = MaterialExpressionTextureSampleParameter2D'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[196] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[197] = MaterialExpressionScalarParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[199] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[202] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_9'
+    Expressions[205] = MaterialExpressionStaticSwitchParameter'Grass.Materials.GroomedGrass_LOD_FakeLight_V6_Mat.MaterialExpressionStaticSwitchParameter_11'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=GrassMask, Group=None }
+    CollectedTextureParameters[1] = { Texture=None, Name=LightMap, Group=None }
+    CollectedTextureParameters[2] = { Texture=None, Name=Diffuse, Group=None }
+    CollectedTextureParameters[3] = { Texture=None, Name=Diffuse, Group=None }
+    CollectedTextureParameters[4] = { Texture=None, Name=Diffuse, Group=None }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'CS_FieldAssets01.Texture.CS_FieldGrassPattern_D'
+        Name = DiffuseQuarter
+        Group = None
+    }
+    CollectedTextureParameters[6] = { Texture=None, Name=DiffuseQuarter, Group=None }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0.000366
+        Name = DistHeightDistance
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=ENVAmount, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.000122
+        Name = TeamColorLerpDistance
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1, Name=ENVAmount, Group=None }
+    CollectedScalarParameters[4] = { Value=8.1e-05, Name=FieldSkinScale, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=6500, G=7500, B=6500, A=1 }
+        Name = CubemapParalax
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.767928, G=0.697702, B=0.530345, A=1 }
+        Name = LightColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

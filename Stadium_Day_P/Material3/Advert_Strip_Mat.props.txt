@@ -1,0 +1,29 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] = { Texture2D'Adverts_Textures.Advert_Strip' }
+Expressions[58] =
+{
+    Expressions[17] = MaterialExpressionScalarParameter'Adverts.Materials.Advert_Strip_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[25] = MaterialExpressionStaticSwitchParameter'Adverts.Materials.Advert_Strip_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[27] = MaterialExpressionStaticSwitchParameter'Adverts.Materials.Advert_Strip_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[28] = MaterialExpressionStaticSwitchParameter'Adverts.Materials.Advert_Strip_Mat.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[46] = MaterialExpressionStaticSwitchParameter'Adverts.Materials.Advert_Strip_Mat.MaterialExpressionStaticSwitchParameter_9'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=AdNumber, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,32 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'TiledPatterns.Grate_Square_N'
+    ReferencedTextures[2] = Texture2D'TiledPatterns.Grate_Square_Pack'
+}
+Expressions[34] =
+{
+    Expressions[18] = MaterialExpressionStaticSwitchParameter'FutureTech.Materials.CrossHatched_Grate_TL_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[24] = MaterialExpressionTextureSampleParameter2D'FutureTech.Materials.CrossHatched_Grate_TL_Mat.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[25] = MaterialExpressionStaticSwitchParameter'FutureTech.Materials.CrossHatched_Grate_TL_Mat.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[31] = MaterialExpressionStaticSwitchParameter'FutureTech.Materials.CrossHatched_Grate_TL_Mat.MaterialExpressionStaticSwitchParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.0625
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=WetMask, Group=None }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

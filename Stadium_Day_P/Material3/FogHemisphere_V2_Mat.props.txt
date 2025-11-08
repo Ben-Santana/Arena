@@ -1,0 +1,25 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'Sky_Dusk_Textures.Curve_FogDusk_01' }
+Expressions[30] =
+{
+    Expressions[0] = MaterialExpressionStaticSwitchParameter'Sky_DownTownNight_Assets.Materials.FogHemisphere_V2_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[24] = MaterialExpressionStaticSwitchParameter'Sky_DownTownNight_Assets.Materials.FogHemisphere_V2_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[26] = MaterialExpressionStaticSwitchParameter'Sky_DownTownNight_Assets.Materials.FogHemisphere_V2_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[27] = MaterialExpressionStaticSwitchParameter'Sky_DownTownNight_Assets.Materials.FogHemisphere_V2_Mat.MaterialExpressionStaticSwitchParameter_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
