@@ -1,53 +1,56 @@
-# ARena: Shared AR 
+# ARena: Where Reality Takes the Field
 
-[![AR](https://img.shields.io/badge/AR-Unity-blueviolet)]()
-[![MR](https://img.shields.io/badge/MR-Meta_Quest-3ddc97)]()
-[![Multiplayer](https://img.shields.io/badge/Multiplayer-live-orange)]()
-[![Hand Tracking](https://img.shields.io/badge/Hand--Tracking-enabled-6e5494)]()
-[![Image Tracking](https://img.shields.io/badge/Image--Tracking-yes-informational)]()
-[![Unity](https://img.shields.io/badge/Engine-Unity-blue)]()
+[![AR](https://img.shields.io/badge/Augmented_Reality-live-blueviolet)]()
+[![Mixed Reality](https://img.shields.io/badge/Mixed_Reality-Meta_Quest_3-3ddc97)]()
+[![Multiplayer](https://img.shields.io/badge/Multiplayer-Shared-orange)]()
+[![Hand Tracking](https://img.shields.io/badge/Hand_Tracking-Enabled-6e5494)]()
+[![Image Tracking](https://img.shields.io/badge/Image_Tracking-Precision-informational)]()
+[![Unity](https://img.shields.io/badge/Built_with-Unity-blue)]()
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)]()
 
+---
 
+### What it does
 
-### What is ARena?
-
-ARena transforms how fans experience e-sports at live venues. Instead of just watching on a screen, ARena uses Meta Quest 3 to project the match right onto the physical field—bringing everyone together in a single, social, and electrifying AR/MR experience. Feel the game come to life at your seat and react in real time with the crowd.
+ARena brings the arena to you. With AR glasses, fans see e-sports come alive! Matches are projected onto the real stadium field, not a screen. You can cheer, react, and share the moment with everyone around, blending the thrill of live sports with the world of modern gaming.
 
 ---
 
 ### Inspiration
 
-Traditional e-sports events can fail to deliver the energy and connection of live sports. With new AR hardware and Unity's tools, our team set out to blend the best parts of digital gaming and physical stadiums, making spectating an immersive, shared event.
+E-sports in person lacked the energy of traditional sports for us. As AR, MR, and e-sports exploded, we wanted to revive that missing feeling of connection, giving fans a way to experience matches *together* - not just as individuals in an audience, but as part of the live event.
+
+Recent advances from Meta, like the Quest 3 and new AR prototypes, showed us what could be possible. We see ARena as a glimpse of how watching, playing, and connecting are about to change for everyone.
 
 ---
 
-### How We Built It
+### How it works
 
-- Developed in Unity for Meta Quest 3, focusing on AR and mixed reality.
-- Used seat-based image tracking for arena anchoring—no bulky field tools required.
-- Leveraged hand tracking and multiplayer features for a truly social experience.
-- Designed for easy setup and instant immersion in any stadium or venue.
+ARena uses image tracking at every seat to anchor the digital arena, so every fan has a perfect, personal view that lines up with reality—no giant field markers or complex setup required. The whole experience is stable, responsive, and multi-user, thanks to headset-to-headset sync. Hand tracking makes it feel even more real.
 
 ---
 
-### Accomplishments
+### Challenges
 
-- Achieved stable, shared AR for multiple users in a real-time, live arena.
-- Overcame technical and tooling challenges as a fast-moving hackathon team.
-- Demonstrated that the future of sports and gaming is interactive, social, and right in front of you.
+Keeping every user’s view in sync was tough. Image tracking took trial and error, and the Meta dev tools demanded resourcefulness. But after many late nights, we pulled off an experience that feels smooth and *shared*.
 
 ---
 
-### Lessons Learned
+#### Accomplishments
 
-The AR/MR space is evolving fast and every new tool means new ground to break. Our biggest gains came from creative troubleshooting, open teamwork, and relentless iteration.
+We combined tech we knew with tools we didn’t to make something genuinely new. Despite a wild development journey, we delivered a real, working multiuser AR prototype—and picked up a lot of know-how on the frontier of immersive tech.
 
 ---
 
-### What's Next
+#### What we learned
 
-We envision ARena powering live concerts, international matches, and new kinds of sports—all through the same AR glasses. This demo is only the first step toward a new way of connecting and experiencing games as a group.
+AR is still the wild west. The tools are early, the docs thin, and even the smartest AI assistants can’t always save you. Nothing beats fast adaptation and clever teamwork.
+
+---
+
+#### What's next
+
+Imagine any event—concerts, worldwide competitions, live 3D streams—where “front row” means wherever you are. That’s the future we see. ARena is our first step.
 
 ---
 
@@ -56,4 +59,4 @@ Aditya Manoj Krishna, Ben Santana, Madhav Lodha, William Sobral
 
 ---
 
-*For hackathon demo purposes only. Licensed under MIT.*
+*Hackathon demo build. Licensed under MIT.*
