@@ -38,8 +38,20 @@ public class QRCodeSpawner : MonoBehaviour
     [Tooltip("Seconds for the spawn animation. 0 = place at end offsets immediately")]
     [SerializeField] [Min(0f)] private float animationDuration = 0.75f;
 
+    [Header("Interaction Settings")]
+    [SerializeField] private bool requireHandSwipeToAnimate = false;
+    [Tooltip("If true, arena waits at start position until user swipes through it")]
+
     private struct AnimState { public float startTime; }
     private readonly Dictionary<Guid, AnimState> _animStates = new Dictionary<Guid, AnimState>();
+    
+    private enum AnimationState
+    {
+        WaitingForSwipe,  // Spawned, waiting for interaction
+        Animating,        // Animation in progress
+        Completed         // Animation finished
+    }
+    private readonly Dictionary<Guid, AnimationState> _animationStates = new Dictionary<Guid, AnimationState>();
 
     private struct PoseCache
     {
@@ -197,7 +209,14 @@ public class QRCodeSpawner : MonoBehaviour
             }
             else if (!_instances.ContainsKey(id))
             {
+                // New instance: start at beginning of animation
                 tAtFetch = animationDuration > 0f ? 0f : 1f;
+            }
+            else if (_animationStates.TryGetValue(id, out var animState) && 
+                     animState == AnimationState.WaitingForSwipe)
+            {
+                // Waiting for swipe: stay at start position
+                tAtFetch = 0f;
             }
 
             // Interpolate offsets for this fetch tick
@@ -223,13 +242,28 @@ public class QRCodeSpawner : MonoBehaviour
 
                 _instances.Add(id, go);
 
-                // Start animation if enabled
-                if (animationDuration > 0f)
+                // Determine animation behavior
+                if (requireHandSwipeToAnimate && animationDuration > 0f)
                 {
-                    _animStates[id] = new AnimState { startTime = Time.time };
+                    // Add swipe detector and wait for interaction
+                    var swipeDetector = go.AddComponent<ArenaSwipeDetector>();
+                    swipeDetector.OnSwipeDetected += () => OnArenaSwipeDetected(id);
+                    _animationStates[id] = AnimationState.WaitingForSwipe;
+                    Debug.Log($"QR detected: \"{payloadText}\" ({id}) - Waiting for hand swipe");
                 }
-
-                Debug.Log($"QR detected: \"{payloadText}\" ({id})");
+                else if (animationDuration > 0f)
+                {
+                    // Start animation immediately (original behavior)
+                    _animStates[id] = new AnimState { startTime = Time.time };
+                    _animationStates[id] = AnimationState.Animating;
+                    Debug.Log($"QR detected: \"{payloadText}\" ({id}) - Animation started");
+                }
+                else
+                {
+                    // No animation, go straight to end position
+                    _animationStates[id] = AnimationState.Completed;
+                    Debug.Log($"QR detected: \"{payloadText}\" ({id}) - No animation");
+                }
             }
             else
             {
@@ -264,10 +298,24 @@ public class QRCodeSpawner : MonoBehaviour
             _anchorSizes.Remove(id);
             _animStates.Remove(id);
             _lastPose.Remove(id);
+            _animationStates.Remove(id);
         }
 
         HashSetPool<Guid>.Release(active);
         ListPool<Guid>.Release(toRemove);
+    }
+    
+    private void OnArenaSwipeDetected(Guid anchorId)
+    {
+        if (_animationStates.TryGetValue(anchorId, out var state) && 
+            state == AnimationState.WaitingForSwipe)
+        {
+            // Start animation now!
+            _animStates[anchorId] = new AnimState { startTime = Time.time };
+            _animationStates[anchorId] = AnimationState.Animating;
+            
+            Debug.Log($"[QR SPAWNER] Swipe detected! Starting animation for anchor {anchorId}");
+        }
     }
 
     // Smooth per-frame animation of position, rotation and scale using the most recent cached pose
@@ -282,6 +330,12 @@ public class QRCodeSpawner : MonoBehaviour
         foreach (var kvp in _animStates)
         {
             Guid id = kvp.Key;
+            
+            // Skip if waiting for swipe
+            if (_animationStates.TryGetValue(id, out var animState) && 
+                animState == AnimationState.WaitingForSwipe)
+                continue;
+            
             if (!_instances.TryGetValue(id, out var go)) continue;
             if (!_lastPose.TryGetValue(id, out var pose)) continue;
 
