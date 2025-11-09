@@ -6,6 +6,8 @@
 [![Hand Tracking](https://img.shields.io/badge/Hand_Tracking-Enabled-6e5494)]()
 [![Image Tracking](https://img.shields.io/badge/Image_Tracking-Precision-informational)]()
 [![Unity](https://img.shields.io/badge/Built_with-Unity-blue)]()
+[![AR Spectating](https://img.shields.io/badge/AR_Spectating-fieldview-green)]()
+[![Multiplayer Sync](https://img.shields.io/badge/Multiplayer_Sync-aligned-important)]()
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)]()
 
 ---
