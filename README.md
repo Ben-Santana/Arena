@@ -20,15 +20,10 @@ ARena brings the arena to you. With AR glasses, fans see e-sports come alive! Ma
 
 E-sports in person lacked the energy of traditional sports for us. As AR, MR, and e-sports exploded, we wanted to revive that missing feeling of connection, giving fans a way to experience matches *together* - not just as individuals in an audience, but as part of the live event.
 
-Recent advances from Meta, like the Quest 3 and new AR prototypes, showed us what could be possible. We see ARena as a glimpse of how watching, playing, and connecting are about to change for everyone.
+Recent advances from Meta, like the Quest 3 and new AR prototypes, showed us what could be possible. We see ARena as a glimpse into the future of how watching, playing, and connecting are about to change for everyone.
 
 ---
 
-### How it works
-
-ARena uses image tracking at every seat to anchor the digital arena, so every fan has a perfect, personal view that lines up with reality—no giant field markers or complex setup required. The whole experience is stable, responsive, and multi-user, thanks to headset-to-headset sync. Hand tracking makes it feel even more real.
-
----
 
 ### Challenges
 
@@ -38,19 +33,19 @@ Keeping every user’s view in sync was tough. Image tracking took trial and err
 
 #### Accomplishments
 
-We combined tech we knew with tools we didn’t to make something genuinely new. Despite a wild development journey, we delivered a real, working multiuser AR prototype—and picked up a lot of know-how on the frontier of immersive tech.
+We tackled new challenges, navigated unfamiliar tools, and built a multiuser AR prototype that works in the real world. Bringing it all together, over the course of a single hackathon sprint weekend, was the achievement we’re most proud of.
 
 ---
 
 #### What we learned
 
-AR is still the wild west. The tools are early, the docs thin, and even the smartest AI assistants can’t always save you. Nothing beats fast adaptation and clever teamwork.
+Collaborative Unity development for multiplayer, shared-space AR is a challenge of its own. From version control to scene merges, every step needs discipline and communication. Building in mixed reality, we found that even simple changes ripple across the whole experience—and a smooth process depends on staying aligned as a team and learning new tech together as we go.
 
 ---
 
 #### What's next
 
-Imagine any event—concerts, worldwide competitions, live 3D streams—where “front row” means wherever you are. That’s the future we see. ARena is our first step.
+Imagine any event - concerts, worldwide competitions, live 3D streams - where “front row” means wherever you are. That’s the future we see. ARena is the first step.
 
 ---
 
