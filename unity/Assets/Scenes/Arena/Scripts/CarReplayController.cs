@@ -9,12 +9,15 @@ public class CarReplayController : MonoBehaviour
     [SerializeField] private TextAsset carsJsonFile;
     [SerializeField] private GameObject carPrefab; 
 
+    [Header("Parent Transform")]
+    [SerializeField] private Transform replayParent; // Set this to the Arena transform
+
     [Header("Team Colors")]
     [SerializeField] private Material team0Material; // Orange
     [SerializeField] private Material team1Material; // Blue
 
     [Header("Scale Settings")]
-    [SerializeField] private float positionScale = 0.01f;
+    [SerializeField] private float positionScale = 1.0f; // Let Arena handle scaling via parent transform
 
     [Header("Debug")]
     [SerializeField] private bool autoPlay = true;
@@ -82,8 +85,10 @@ public class CarReplayController : MonoBehaviour
                 string playerName = playerEntry.Key;
                 CarPlayerData playerData = playerEntry.Value;
 
-                // Instantiate car GameObject
-                GameObject carGO = Instantiate(carPrefab);
+                // Instantiate car GameObject as child of replayParent
+                GameObject carGO = replayParent != null ? 
+                    Instantiate(carPrefab, replayParent) : 
+                    Instantiate(carPrefab);
                 carGO.name = $"Car_{playerName}";
 
                 // Add CarController
@@ -312,7 +317,7 @@ public class CarController : MonoBehaviour
             pos.y * positionScale   // RL Y -> Unity Z
         );
 
-        transform.position = unityPosition;
+        transform.localPosition = unityPosition;
 
         // Set rotation (handles both quaternion and yaw/pitch/roll)
         if (pos.rotation != null)
@@ -365,7 +370,7 @@ public class CarController : MonoBehaviour
             pos2.y * positionScale
         );
 
-        transform.position = Vector3.Lerp(unityPos1, unityPos2, t);
+        transform.localPosition = Vector3.Lerp(unityPos1, unityPos2, t);
 
         
         if (pos1.rotation != null && pos2.rotation != null)

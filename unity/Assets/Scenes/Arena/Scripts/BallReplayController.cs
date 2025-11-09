@@ -8,8 +8,11 @@ public class BallReplayController : MonoBehaviour
     [SerializeField] private GameObject ballObject;
     [SerializeField] private TextAsset replayJsonFile;
     
+    [Header("Parent Transform")]
+    [SerializeField] private Transform replayParent; // Set this to the Arena transform
+    
     [Header("Scale Settings")]
-    [SerializeField] private float positionScale = 0.01f; // Convert from Rocket League units to Unity units
+    [SerializeField] private float positionScale = 1.0f; // Let Arena handle scaling via parent transform
     
     [Header("Debug")]
     [SerializeField] private bool autoPlay = true;
@@ -24,6 +27,12 @@ public class BallReplayController : MonoBehaviour
     void Start()
     {
         LoadReplayData();
+        
+        // Parent the ball to the Arena if replayParent is specified
+        if (replayParent != null && ballObject != null)
+        {
+            ballObject.transform.SetParent(replayParent, true);
+        }
         
         if (autoPlay)
         {
@@ -165,7 +174,7 @@ public class BallReplayController : MonoBehaviour
             pos.y * positionScale   // Rocket League Y becomes Unity Z (forward)
         );
         
-        ballObject.transform.position = unityPosition;
+        ballObject.transform.localPosition = unityPosition;
         
       
         if (pos.rotation != null)
@@ -197,7 +206,7 @@ public class BallReplayController : MonoBehaviour
             pos2.y * positionScale
         );
         
-        ballObject.transform.position = Vector3.Lerp(unityPos1, unityPos2, t);
+        ballObject.transform.localPosition = Vector3.Lerp(unityPos1, unityPos2, t);
         
         // Interpolate rotation if available
         if (pos1.rotation != null && pos2.rotation != null)
@@ -214,3 +223,4 @@ public class BallReplayController : MonoBehaviour
         StartReplay();
     }
 }
+
