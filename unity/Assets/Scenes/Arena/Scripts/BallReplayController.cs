@@ -222,5 +222,34 @@ public class BallReplayController : MonoBehaviour
     {
         StartReplay();
     }
+    
+    // Network sync methods
+    public float GetCurrentTime()
+    {
+        if (!isPlaying) return 0f;
+        return Time.time - replayStartTime;
+    }
+    
+    public bool IsCurrentlyPlaying()
+    {
+        return isPlaying;
+    }
+    
+    public void SetReplayToTime(float time)
+    {
+        replayStartTime = Time.time - time;
+        currentPositionIndex = 0; // Will be corrected in next Update
+        isPlaying = true;
+    }
+    
+    public void PauseReplay()
+    {
+        isPlaying = false;
+    }
+    
+    public void ResumeReplay()
+    {
+        isPlaying = true;
+    }
 }
 

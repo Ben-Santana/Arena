@@ -183,6 +183,39 @@ public class CarReplayController : MonoBehaviour
     {
         StartReplay();
     }
+    
+    // Network sync methods
+    public float GetCurrentTime()
+    {
+        if (!isPlaying) return 0f;
+        return Time.time - replayStartTime;
+    }
+    
+    public bool IsCurrentlyPlaying()
+    {
+        return isPlaying;
+    }
+    
+    public void SetReplayToTime(float time)
+    {
+        replayStartTime = Time.time - time;
+        // Reset all car controllers
+        foreach (var controller in carControllers.Values)
+        {
+            controller.Reset();
+        }
+        isPlaying = true;
+    }
+    
+    public void PauseReplay()
+    {
+        isPlaying = false;
+    }
+    
+    public void ResumeReplay()
+    {
+        isPlaying = true;
+    }
 }
 
 public class CarController : MonoBehaviour
