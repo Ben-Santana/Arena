@@ -9,6 +9,7 @@ public class SimpleReplaySync : MonoBehaviour
     [Header("Network Settings")]
     [SerializeField] private float broadcastInterval = 0.1f; // 10Hz
     [SerializeField] private float discoveryTime = 2.0f; // Time to wait before becoming host
+    [SerializeField] private float syncThreshold = 0.3f; // Only sync if drift exceeds this (seconds)
     
     private UDPBroadcaster broadcaster;
     private UDPReceiver receiver;
@@ -88,6 +89,12 @@ public class SimpleReplaySync : MonoBehaviour
         };
         
         broadcaster.BroadcastMessage(message);
+        
+        // Debug log every 2 seconds
+        if (Time.frameCount % 120 == 0)
+        {
+            Debug.Log($"[SimpleReplaySync] HOST: Broadcasting - Ball: {message.ballTime:F2}s, Car: {message.carTime:F2}s, Playing: {message.isPlaying}");
+        }
     }
     
     void HandleReceivedMessage(SyncMessage message)
@@ -102,6 +109,13 @@ public class SimpleReplaySync : MonoBehaviour
             BecomeClient();
         }
         
+        // HOST should ignore incoming messages (it's the authority)
+        if (isHost)
+        {
+            Debug.LogWarning($"[SimpleReplaySync] HOST: Ignoring message from device {message.deviceId.Substring(0, 8)}... (host is authority)");
+            return;
+        }
+        
         // Only clients should sync to received messages
         if (!isClient) return;
         
@@ -110,8 +124,19 @@ public class SimpleReplaySync : MonoBehaviour
         // Update replay positions to match host
         if (message.isPlaying)
         {
-            ballController.SetReplayToTime(message.ballTime);
-            carController.SetReplayToTime(message.carTime);
+            // Calculate drift between client and host
+            float ballDrift = Mathf.Abs(message.ballTime - ballController.GetCurrentTime());
+            float carDrift = Mathf.Abs(message.carTime - carController.GetCurrentTime());
+            
+            // Only sync if drift exceeds threshold (prevents constant snapping)
+            bool needsSync = ballDrift > syncThreshold || carDrift > syncThreshold;
+            
+            if (needsSync)
+            {
+                ballController.SetReplayToTime(message.ballTime);
+                carController.SetReplayToTime(message.carTime);
+                Debug.Log($"[SimpleReplaySync] CLIENT: Correcting drift - Ball: {ballDrift:F2}s, Car: {carDrift:F2}s");
+            }
             
             if (!wasPlaying)
             {

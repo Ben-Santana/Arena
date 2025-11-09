@@ -21,13 +21,33 @@ public class QRCodeSpawner : MonoBehaviour
     private float _prefabReferenceSize = 1.0f;
     private readonly Dictionary<Guid, float> _anchorSizes = new Dictionary<Guid, float>();
 
-    [Header("Prefab Offset Settings")]
-    [SerializeField] private Vector3 positionOffset = Vector3.zero;
-    [Tooltip("Position offset relative to QR code (in QR's local space)")]
-    [SerializeField] private Vector3 rotationOffset = Vector3.zero;
-    [Tooltip("Rotation offset in Euler angles (degrees)")]
-    [SerializeField] private float scaleOffset = 1.0f;
-    [Tooltip("Scale multiplier applied to the prefab (1.0 = no change)")]
+    [Header("Spawn Animation Offsets")]
+    [SerializeField] private Vector3 startPositionOffset = Vector3.zero;
+    [SerializeField] private Vector3 endPositionOffset = Vector3.zero;
+
+    [Tooltip("Rotation offsets in Euler angles (degrees)")]
+    [SerializeField] private Vector3 startRotationOffset = Vector3.zero;
+    [Tooltip("Rotation offsets in Euler angles (degrees)")]
+    [SerializeField] private Vector3 endRotationOffset = Vector3.zero;
+
+    [Tooltip("Scale multiplier at animation start (1.0 = no change)")]
+    [SerializeField] private float startScaleOffset = 1.0f;
+    [Tooltip("Scale multiplier at animation end (1.0 = no change)")]
+    [SerializeField] private float endScaleOffset = 1.0f;
+
+    [Tooltip("Seconds for the spawn animation. 0 = place at end offsets immediately")]
+    [SerializeField] [Min(0f)] private float animationDuration = 0.75f;
+
+    private struct AnimState { public float startTime; }
+    private readonly Dictionary<Guid, AnimState> _animStates = new Dictionary<Guid, AnimState>();
+
+    private struct PoseCache
+    {
+        public Vector3 worldPos;
+        public Quaternion worldRot;
+        public float baseScale; // QR size derived uniform scale before animated multiplier
+    }
+    private readonly Dictionary<Guid, PoseCache> _lastPose = new Dictionary<Guid, PoseCache>();
 
     private async void Awake()
     {
@@ -90,16 +110,15 @@ public class QRCodeSpawner : MonoBehaviour
             if (!anchor.TryGetComponent(out OVRMarkerPayload payload))
                 continue;
 
-            // Get anchor ID once for this iteration
             var id = anchor.Uuid;
 
-            // Get a pose first (needed for anchor to be fully initialized)
+            // Get a pose component
             if (!anchor.TryGetComponent(out OVRLocatable locatable))
                 continue;
 
             await locatable.SetEnabledAsync(true, 0);
 
-            // Try to get QR code size from OVRBounded2D component (after enabling locatable)
+            // Try to get QR code size from OVRBounded2D component
             float qrSizeMeters = 0f;
             bool hasSize = TryGetQrSizeFromBounded2D(anchor, out qrSizeMeters);
             if (hasSize)
@@ -132,59 +151,103 @@ public class QRCodeSpawner : MonoBehaviour
 
             active.Add(id);
 
-            // Calculate scale factor - use most recent detected size if available
-            float scaleFactor = 1.0f;
-            float qrSizeForScale = 0f;
+            // Calculate base scale factor from QR size and prefab reference
+            float baseScale = 1.0f;
             if (hasSize && qrSizeMeters > 0f)
             {
-                // Use the size we just detected this frame
-                qrSizeForScale = qrSizeMeters;
-                scaleFactor = qrSizeMeters / _prefabReferenceSize;
-                float originalScaleFactor = scaleFactor;
-                scaleFactor = Mathf.Clamp(scaleFactor, 0.0000001f, 10000.0f); // Safety clamp with much wider range
-                Debug.Log($"[QR SCALING] Calculated scale: {scaleFactor:F6} (original: {originalScaleFactor:F6}, QR: {qrSizeMeters:F4}m / Prefab: {_prefabReferenceSize:F4}m)");
+                float originalScaleFactor = qrSizeMeters / _prefabReferenceSize;
+                baseScale = Mathf.Clamp(originalScaleFactor, 0.0000001f, 10000.0f);
+                Debug.Log($"[QR SCALING] Calculated base scale: {baseScale:F6} (original: {originalScaleFactor:F6}, QR: {qrSizeMeters:F4}m / Prefab: {_prefabReferenceSize:F4}m)");
             }
             else if (_anchorSizes.TryGetValue(id, out float storedSize) && storedSize > 0f)
             {
-                // Fallback to previously stored size if detection failed this frame
-                qrSizeForScale = storedSize;
-                scaleFactor = storedSize / _prefabReferenceSize;
-                scaleFactor = Mathf.Clamp(scaleFactor, 0.0001f, 100.0f);
-                Debug.Log($"[QR SCALING] Using stored size for scale: {scaleFactor:F6} (QR: {storedSize:F4}m / Prefab: {_prefabReferenceSize:F4}m)");
+                float originalScaleFactor = storedSize / _prefabReferenceSize;
+                baseScale = Mathf.Clamp(originalScaleFactor, 0.0001f, 100.0f);
+                Debug.Log($"[QR SCALING] Using stored base scale: {baseScale:F6} (QR: {storedSize:F4}m / Prefab: {_prefabReferenceSize:F4}m)");
             }
             else
             {
-                Debug.LogWarning($"[QR SCALING] No size available for anchor {id}. Using default scale 1.0");
+                Debug.LogWarning($"[QR SCALING] No size available for anchor {id}. Using default base scale 1.0");
             }
+
+            // Cache the latest world pose and base scale so LateUpdate can animate smoothly every frame
+            _lastPose[id] = new PoseCache
+            {
+                worldPos = worldPos,
+                worldRot = worldRot,
+                baseScale = baseScale
+            };
+
+            // Determine current animation t for this anchor at fetch time
+            float tAtFetch = 1f;
+            bool isAnimating = _animStates.TryGetValue(id, out var st) && animationDuration > 0f;
+            if (isAnimating)
+            {
+                float u = (Time.time - st.startTime) / animationDuration;
+                if (u >= 1f)
+                {
+                    tAtFetch = 1f;
+                    _animStates.Remove(id);
+                    isAnimating = false;
+                }
+                else
+                {
+                    tAtFetch = SmoothStep01(u);
+                }
+            }
+            else if (!_instances.ContainsKey(id))
+            {
+                tAtFetch = animationDuration > 0f ? 0f : 1f;
+            }
+
+            // Interpolate offsets for this fetch tick
+            Vector3 posOffset = Vector3.Lerp(startPositionOffset, endPositionOffset, tAtFetch);
+            Vector3 rotOffset = new Vector3(
+                Mathf.LerpAngle(startRotationOffset.x, endRotationOffset.x, tAtFetch),
+                Mathf.LerpAngle(startRotationOffset.y, endRotationOffset.y, tAtFetch),
+                Mathf.LerpAngle(startRotationOffset.z, endRotationOffset.z, tAtFetch)
+            );
+            float scaleMul = Mathf.Lerp(startScaleOffset, endScaleOffset, tAtFetch);
 
             if (!_instances.TryGetValue(id, out var go))
             {
-                ApplyOffsets(worldPos, worldRot, scaleFactor, out Vector3 finalPos, out Quaternion finalRot, out Vector3 finalScale);
+                // First time seen, instantiate at current offsets
+                ApplyOffsets(worldPos, worldRot, baseScale, posOffset, rotOffset, scaleMul,
+                             out Vector3 finalPos, out Quaternion finalRot, out Vector3 finalScale);
+
                 go = Instantiate(prefab, finalPos, finalRot);
                 go.name = string.IsNullOrEmpty(payloadText) ? $"QR_{id}" : $"QR_{SanitizeName(payloadText)}_{id}";
-                
-                // Disable any cameras in the spawned object to prevent view switching
+
                 DisableCamerasInObject(go);
-                
-                // Apply combined scale (QR-based scale * user offset scale)
                 go.transform.localScale = finalScale;
-                Debug.Log($"Applied scale: {finalScale.x:F3} (base: {scaleFactor:F3}, offset: {scaleOffset:F3})");
-                
+
                 _instances.Add(id, go);
+
+                // Start animation if enabled
+                if (animationDuration > 0f)
+                {
+                    _animStates[id] = new AnimState { startTime = Time.time };
+                }
+
                 Debug.Log($"QR detected: \"{payloadText}\" ({id})");
             }
             else
             {
-                ApplyOffsets(worldPos, worldRot, scaleFactor, out Vector3 finalPos, out Quaternion finalRot, out Vector3 finalScale);
-                go.transform.SetPositionAndRotation(finalPos, finalRot);
-                
-                // Always update scale with combined scale (QR-based * offset)
-                Vector3 currentScale = go.transform.localScale;
-                if ((currentScale - finalScale).magnitude > 0.001f)
+                // If not animating, keep the object in sync on fetch ticks
+                if (!isAnimating)
                 {
-                    go.transform.localScale = finalScale;
-                    Debug.Log($"Updated scale from {currentScale} to {finalScale.x:F3} (base: {scaleFactor:F3}, offset: {scaleOffset:F3})");
+                    ApplyOffsets(worldPos, worldRot, baseScale, posOffset, rotOffset, scaleMul,
+                                 out Vector3 finalPos, out Quaternion finalRot, out Vector3 finalScale);
+
+                    go.transform.SetPositionAndRotation(finalPos, finalRot);
+
+                    Vector3 currentScale = go.transform.localScale;
+                    if ((currentScale - finalScale).magnitude > 0.001f)
+                    {
+                        go.transform.localScale = finalScale;
+                    }
                 }
+                // If animating, LateUpdate will drive smooth per-frame interpolation using cached pose
             }
         }
 
@@ -198,11 +261,79 @@ public class QRCodeSpawner : MonoBehaviour
         {
             Destroy(_instances[id]);
             _instances.Remove(id);
-            _anchorSizes.Remove(id); // Clean up size tracking
+            _anchorSizes.Remove(id);
+            _animStates.Remove(id);
+            _lastPose.Remove(id);
         }
 
         HashSetPool<Guid>.Release(active);
         ListPool<Guid>.Release(toRemove);
+    }
+
+    // Smooth per-frame animation of position, rotation and scale using the most recent cached pose
+    private void LateUpdate()
+    {
+        if (animationDuration <= 0f) return;
+        if (_animStates.Count == 0) return;
+
+        // Collect ids to finish after loop without modifying during enumeration
+        List<Guid> finished = null;
+
+        foreach (var kvp in _animStates)
+        {
+            Guid id = kvp.Key;
+            if (!_instances.TryGetValue(id, out var go)) continue;
+            if (!_lastPose.TryGetValue(id, out var pose)) continue;
+
+            float u = (Time.time - kvp.Value.startTime) / animationDuration;
+            if (u >= 1f)
+            {
+                // Snap to end once and mark finished
+                Vector3 posOffsetEnd = endPositionOffset;
+                Vector3 rotOffsetEnd = endRotationOffset;
+                float scaleMulEnd = endScaleOffset;
+
+                ApplyOffsets(pose.worldPos, pose.worldRot, pose.baseScale,
+                             posOffsetEnd, rotOffsetEnd, scaleMulEnd,
+                             out Vector3 finalPosEnd, out Quaternion finalRotEnd, out Vector3 finalScaleEnd);
+
+                go.transform.SetPositionAndRotation(finalPosEnd, finalRotEnd);
+                go.transform.localScale = finalScaleEnd;
+
+                if (finished == null) finished = new List<Guid>();
+                finished.Add(id);
+                continue;
+            }
+
+            float t = SmoothStep01(u);
+
+            Vector3 posOffset = Vector3.Lerp(startPositionOffset, endPositionOffset, t);
+            Vector3 rotOffset = new Vector3(
+                Mathf.LerpAngle(startRotationOffset.x, endRotationOffset.x, t),
+                Mathf.LerpAngle(startRotationOffset.y, endRotationOffset.y, t),
+                Mathf.LerpAngle(startRotationOffset.z, endRotationOffset.z, t)
+            );
+            float scaleMul = Mathf.Lerp(startScaleOffset, endScaleOffset, t);
+
+            ApplyOffsets(pose.worldPos, pose.worldRot, pose.baseScale,
+                         posOffset, rotOffset, scaleMul,
+                         out Vector3 finalPos, out Quaternion finalRot, out Vector3 finalScale);
+
+            go.transform.SetPositionAndRotation(finalPos, finalRot);
+            go.transform.localScale = finalScale;
+        }
+
+        if (finished != null)
+        {
+            for (int i = 0; i < finished.Count; i++)
+                _animStates.Remove(finished[i]);
+        }
+    }
+
+    private static float SmoothStep01(float x)
+    {
+        x = Mathf.Clamp01(x);
+        return x * x * (3f - 2f * x);
     }
 
     private static string GetPayloadString(OVRMarkerPayload payload)
@@ -210,9 +341,8 @@ public class QRCodeSpawner : MonoBehaviour
         try
         {
             if (payload.PayloadType == OVRMarkerPayloadType.StringQRCode)
-                return payload.AsString(); // SDK-provided string accessor
+                return payload.AsString();
 
-            // Fallback to bytes
             var bytes = new byte[payload.ByteCount];
             var written = payload.GetBytes(bytes);
             return Encoding.UTF8.GetString(bytes, 0, written);
@@ -233,33 +363,33 @@ public class QRCodeSpawner : MonoBehaviour
     private bool TryGetQrSizeFromBounded2D(OVRAnchor anchor, out float sizeMeters)
     {
         sizeMeters = 0f;
-        
+
         if (!anchor.TryGetComponent(out OVRBounded2D bounded2D))
         {
             Debug.LogWarning("[QR SCALING] OVRBounded2D component not found on anchor");
             return false;
         }
-        
+
         if (bounded2D.IsNull)
         {
             Debug.LogWarning("[QR SCALING] OVRBounded2D component is null");
             return false;
         }
-        
+
         if (!bounded2D.IsEnabled)
         {
             Debug.LogWarning("[QR SCALING] OVRBounded2D component is not enabled");
             return false;
         }
-        
+
         try
         {
             Rect boundingBox = bounded2D.BoundingBox;
             Debug.Log($"[QR SCALING] BoundingBox retrieved: width={boundingBox.width:F4}, height={boundingBox.height:F4}, x={boundingBox.x:F4}, y={boundingBox.y:F4}");
-            
+
             // QR codes are square, use average of width and height as side length
             sizeMeters = (boundingBox.width + boundingBox.height) / 2f;
-            
+
             if (sizeMeters > 0f)
             {
                 Debug.Log($"[QR SCALING] Calculated QR size: {sizeMeters:F4} meters");
@@ -277,7 +407,7 @@ public class QRCodeSpawner : MonoBehaviour
             return false;
         }
     }
-    
+
     private void DisableCamerasInObject(GameObject obj)
     {
         Camera[] cameras = obj.GetComponentsInChildren<Camera>(true);
@@ -291,20 +421,18 @@ public class QRCodeSpawner : MonoBehaviour
             }
         }
     }
-    
+
     private float GetPrefabReferenceSize(GameObject prefab)
     {
         if (prefab == null) return 1.0f;
-        
+
         // Try MeshFilter first
         MeshFilter meshFilter = prefab.GetComponent<MeshFilter>();
         if (meshFilter != null && meshFilter.sharedMesh != null)
         {
             Vector3 boundsSize = meshFilter.sharedMesh.bounds.size;
             Debug.Log($"[QR SCALING] Mesh bounds size: x={boundsSize.x:F4}, y={boundsSize.y:F4}, z={boundsSize.z:F4}");
-            
-            // For spheres/balls, use diameter (largest dimension)
-            // For flat objects on QR codes, use X or Z
+
             float referenceSize = Mathf.Max(boundsSize.x, boundsSize.y, boundsSize.z);
             if (referenceSize > 0f)
             {
@@ -312,20 +440,19 @@ public class QRCodeSpawner : MonoBehaviour
                 return referenceSize;
             }
         }
-        
+
         // Fallback: check all Renderers in local space
         Renderer[] renderers = prefab.GetComponentsInChildren<Renderer>();
         if (renderers.Length > 0)
         {
-            // Get bounds in local space by temporarily instantiating
             GameObject temp = Instantiate(prefab);
             temp.transform.position = Vector3.zero;
             temp.transform.rotation = Quaternion.identity;
-            temp.transform.localScale = Vector3.one;
-            
+            // keep authored localScale to measure as authored
+
             Bounds combinedBounds = new Bounds(Vector3.zero, Vector3.zero);
             bool boundsInitialized = false;
-            
+
             foreach (Renderer r in temp.GetComponentsInChildren<Renderer>())
             {
                 if (!boundsInitialized)
@@ -338,9 +465,9 @@ public class QRCodeSpawner : MonoBehaviour
                     combinedBounds.Encapsulate(r.bounds);
                 }
             }
-            
+
             Destroy(temp);
-            
+
             if (boundsInitialized)
             {
                 Vector3 boundsSize = combinedBounds.size;
@@ -353,26 +480,30 @@ public class QRCodeSpawner : MonoBehaviour
                 }
             }
         }
-        
-        // Default: assume 1 Unity unit = 1 meter
+
         Debug.LogWarning($"[QR SCALING] Could not determine prefab reference size, using default 1.0 meters");
         return 1.0f;
     }
 
-    private void ApplyOffsets(Vector3 qrWorldPos, Quaternion qrWorldRot, float baseScale, out Vector3 finalPos, out Quaternion finalRot, out Vector3 finalScale)
+    private void ApplyOffsets(
+        Vector3 qrWorldPos,
+        Quaternion qrWorldRot,
+        float baseScale,
+        Vector3 posOffset,
+        Vector3 rotOffsetEuler,
+        float scaleMul,
+        out Vector3 finalPos,
+        out Quaternion finalRot,
+        out Vector3 finalScale)
     {
-        // Apply rotation offset (convert Euler to Quaternion and combine)
-        Quaternion offsetRotQuat = Quaternion.Euler(rotationOffset);
+        Quaternion offsetRotQuat = Quaternion.Euler(rotOffsetEuler);
         finalRot = qrWorldRot * offsetRotQuat;
-        
-        // Apply position offset in QR's local space
-        // This means offset is relative to QR orientation, not world space
-        // IMPORTANT: This offset is in world units (meters) and is independent of object scale
-        // The offset is applied to the object's pivot point, not necessarily its visual center
-        finalPos = qrWorldPos + qrWorldRot * positionOffset;
-        
-        // Apply scale offset (multiply base scale by offset - uniform scaling)
-        float combinedScale = baseScale * scaleOffset;
+
+        // Position offset in QR local space
+        finalPos = qrWorldPos + qrWorldRot * posOffset;
+
+        // Combine base scale with animated scale multiplier
+        float combinedScale = Mathf.Clamp(baseScale * scaleMul, 1e-7f, 10000f);
         finalScale = Vector3.one * combinedScale;
     }
 
