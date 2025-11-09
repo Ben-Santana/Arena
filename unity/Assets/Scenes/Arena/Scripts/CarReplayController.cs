@@ -30,22 +30,48 @@ public class CarReplayController : MonoBehaviour
 
     [Header("Replay Control")]
     [SerializeField] private BallReplayController ballController;  // Reference to ball controller for restarting
+    
+    [Header("External Control")]
+    [SerializeField] private bool waitForExternalStart = false;
+    [Tooltip("If true, replay won't start until EnableReplayStart() is called")]
 
     private CarsReplayData replayData;
     private Dictionary<string, CarController> carControllers = new Dictionary<string, CarController>();
     private float replayStartTime;
     private bool isPlaying = false;
     private float replayDuration;
+    private bool externalStartEnabled = false;
 
 
     void Start()
     {
         LoadReplayData();
 
-        if (autoPlay)
+        if (autoPlay && !waitForExternalStart)
         {
             StartReplay();
         }
+        else if (waitForExternalStart)
+        {
+            Debug.Log("[CarReplayController] Waiting for external start signal");
+        }
+    }
+    
+    // Called externally to enable replay start
+    public void EnableReplayStart()
+    {
+        externalStartEnabled = true;
+        if (autoPlay)
+        {
+            StartReplay();
+            Debug.Log("[CarReplayController] External start enabled, replay started");
+        }
+    }
+    
+    // Set whether to wait for external start
+    public void SetWaitForExternalStart(bool wait)
+    {
+        waitForExternalStart = wait;
     }
 
     void LoadReplayData()

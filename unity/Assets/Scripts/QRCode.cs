@@ -245,9 +245,26 @@ public class QRCodeSpawner : MonoBehaviour
                 // Determine animation behavior
                 if (requireHandSwipeToAnimate && animationDuration > 0f)
                 {
+                    // Configure replay controllers to wait for swipe
+                    var ballController = go.GetComponentInChildren<BallReplayController>();
+                    if (ballController != null)
+                    {
+                        ballController.SetWaitForExternalStart(true);
+                    }
+                    
+                    var carController = go.GetComponentInChildren<CarReplayController>();
+                    if (carController != null)
+                    {
+                        carController.SetWaitForExternalStart(true);
+                    }
+                    
                     // Add swipe detector and wait for interaction
                     var swipeDetector = go.AddComponent<ArenaSwipeDetector>();
                     swipeDetector.OnSwipeDetected += () => OnArenaSwipeDetected(id);
+                    
+                    // Notify network sync when host swipes
+                    swipeDetector.OnSwipeDetectedForNetwork += () => NotifyNetworkOfSwipe(go);
+                    
                     _animationStates[id] = AnimationState.WaitingForSwipe;
                     Debug.Log($"QR detected: \"{payloadText}\" ({id}) - Waiting for hand swipe");
                 }
@@ -314,7 +331,44 @@ public class QRCodeSpawner : MonoBehaviour
             _animStates[anchorId] = new AnimState { startTime = Time.time };
             _animationStates[anchorId] = AnimationState.Animating;
             
+            // Schedule replay start after animation completes
+            StartCoroutine(EnableReplayAfterAnimation(anchorId));
+            
             Debug.Log($"[QR SPAWNER] Swipe detected! Starting animation for anchor {anchorId}");
+        }
+    }
+    
+    private void NotifyNetworkOfSwipe(GameObject arenaObject)
+    {
+        // Find and notify the sync manager
+        SimpleReplaySync syncManager = arenaObject.GetComponentInChildren<SimpleReplaySync>();
+        if (syncManager != null && syncManager.IsHost())
+        {
+            syncManager.OnHostSwipeTriggered();
+        }
+    }
+    
+    private System.Collections.IEnumerator EnableReplayAfterAnimation(Guid anchorId)
+    {
+        // Wait for animation to complete
+        yield return new WaitForSeconds(animationDuration);
+        
+        // Enable replay controllers
+        if (_instances.TryGetValue(anchorId, out var go))
+        {
+            var ballController = go.GetComponentInChildren<BallReplayController>();
+            if (ballController != null)
+            {
+                ballController.EnableReplayStart();
+            }
+            
+            var carController = go.GetComponentInChildren<CarReplayController>();
+            if (carController != null)
+            {
+                carController.EnableReplayStart();
+            }
+            
+            Debug.Log($"[QR SPAWNER] Replay enabled after animation for anchor {anchorId}");
         }
     }
 

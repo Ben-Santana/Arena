@@ -20,6 +20,7 @@ public class SimpleReplaySync : MonoBehaviour
     private float startTime;
     
     private bool wasPlaying = false;
+    private bool swipeHasBeenTriggered = false;
     
     void Start()
     {
@@ -74,6 +75,15 @@ public class SimpleReplaySync : MonoBehaviour
     {
         isHost = false;
         isClient = true;
+        
+        // Disable swipe detector on client - only host can swipe
+        ArenaSwipeDetector swipeDetector = GetComponentInChildren<ArenaSwipeDetector>();
+        if (swipeDetector != null)
+        {
+            swipeDetector.enabled = false;
+            Debug.Log("[SimpleReplaySync] CLIENT: Disabled swipe detector - only host can trigger");
+        }
+        
         Debug.Log("[SimpleReplaySync] Became CLIENT - following host");
     }
     
@@ -85,7 +95,8 @@ public class SimpleReplaySync : MonoBehaviour
         {
             ballTime = ballController.GetCurrentTime(),
             carTime = carController.GetCurrentTime(),
-            isPlaying = ballController.IsCurrentlyPlaying() && carController.IsCurrentlyPlaying()
+            isPlaying = ballController.IsCurrentlyPlaying() && carController.IsCurrentlyPlaying(),
+            swipeTriggered = swipeHasBeenTriggered
         };
         
         broadcaster.BroadcastMessage(message);
@@ -93,8 +104,15 @@ public class SimpleReplaySync : MonoBehaviour
         // Debug log every 2 seconds
         if (Time.frameCount % 120 == 0)
         {
-            Debug.Log($"[SimpleReplaySync] HOST: Broadcasting - Ball: {message.ballTime:F2}s, Car: {message.carTime:F2}s, Playing: {message.isPlaying}");
+            Debug.Log($"[SimpleReplaySync] HOST: Broadcasting - Ball: {message.ballTime:F2}s, Car: {message.carTime:F2}s, Playing: {message.isPlaying}, Swipe: {message.swipeTriggered}");
         }
+    }
+    
+    // Called when host triggers swipe
+    public void OnHostSwipeTriggered()
+    {
+        swipeHasBeenTriggered = true;
+        Debug.Log("[SimpleReplaySync] HOST: Swipe triggered, will broadcast to clients");
     }
     
     void HandleReceivedMessage(SyncMessage message)
@@ -120,6 +138,22 @@ public class SimpleReplaySync : MonoBehaviour
         if (!isClient) return;
         
         if (ballController == null || carController == null) return;
+        
+        // Handle swipe trigger from host
+        if (message.swipeTriggered && !swipeHasBeenTriggered)
+        {
+            swipeHasBeenTriggered = true;
+            
+            // Trigger swipe animation on client
+            ArenaSwipeDetector swipeDetector = GetComponentInChildren<ArenaSwipeDetector>();
+            if (swipeDetector != null)
+            {
+                // Manually trigger the swipe callback
+                swipeDetector.TriggerSwipeFromNetwork();
+            }
+            
+            Debug.Log("[SimpleReplaySync] CLIENT: Host triggered swipe, starting animation");
+        }
         
         // Update replay positions to match host
         if (message.isPlaying)

@@ -8,6 +8,7 @@ public class SyncMessage
     public float ballTime;       // Current ball replay time
     public float carTime;        // Current car replay time  
     public bool isPlaying;       // Is replay active
+    public bool swipeTriggered;  // Host triggered swipe animation
     
     // Helper method to serialize to JSON
     public string ToJson()
