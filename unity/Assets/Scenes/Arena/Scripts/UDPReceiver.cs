@@ -20,6 +20,7 @@ public class UDPReceiver : MonoBehaviour
     private SyncMessage latestMessage;
     private float lastMessageTime;
     private bool hasReceivedMessage = false;
+    private bool messageReceivedThisFrame = false;
     private object messageLock = new object();
     
     public event Action<SyncMessage> OnMessageReceived;
@@ -66,7 +67,7 @@ public class UDPReceiver : MonoBehaviour
                     lock (messageLock)
                     {
                         latestMessage = message;
-                        lastMessageTime = Time.time;
+                        messageReceivedThisFrame = true;
                         hasReceivedMessage = true;
                     }
                 }
@@ -88,6 +89,13 @@ public class UDPReceiver : MonoBehaviour
         // Check for new messages and invoke events on main thread
         lock (messageLock)
         {
+            if (messageReceivedThisFrame)
+            {
+                // Update timestamp on main thread
+                lastMessageTime = Time.time;
+                messageReceivedThisFrame = false;
+            }
+            
             if (hasReceivedMessage && latestMessage != null)
             {
                 OnMessageReceived?.Invoke(latestMessage);
