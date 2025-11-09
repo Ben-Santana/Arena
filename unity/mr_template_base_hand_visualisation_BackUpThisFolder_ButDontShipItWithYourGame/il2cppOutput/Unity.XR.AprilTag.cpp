@@ -98,7 +98,7 @@ IL2CPP_EXTERN_C RuntimeClass* SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33
 IL2CPP_EXTERN_C RuntimeClass* Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XRHandJointID_tC0BE8E1AC7717425649709BB62AAD56304FCC081_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t00C0999F4BF8AD63812C458719F07DBFE6FD960E____9F85A43B9C9226117FF24430B59F31921F946FA9048536F4A4EA9C555B4D6A12_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t00C0999F4BF8AD63812C458719F07DBFE6FD960E____2E33441B26A9607AB1B98BD13D0AFF6E997C32FBE2113C415666AF136E4E0B03_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t00C0999F4BF8AD63812C458719F07DBFE6FD960E____D071707EEEB2BDC45E405D4A05F1162C406A25FAB6F15959806AB233E0BC7D49_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral2620038B8A71EF21A205CC921576171A3CA9B0F4;
 IL2CPP_EXTERN_C String_t* _stringLiteral4A4955D176516025430352DFFE6DF5974DEB47AB;
@@ -315,7 +315,7 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 	};
 };
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D241_t70F99D76865497C49986671208351A4AA0DF805A 
+struct __StaticArrayInitTypeSizeU3D225_t0545A7DF5C61C4A481BD61A9DB833C46A5B5CED9 
 {
 	union
 	{
@@ -325,7 +325,7 @@ struct __StaticArrayInitTypeSizeU3D241_t70F99D76865497C49986671208351A4AA0DF805A
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D241_t70F99D76865497C49986671208351A4AA0DF805A__padding[241];
+		uint8_t __StaticArrayInitTypeSizeU3D225_t0545A7DF5C61C4A481BD61A9DB833C46A5B5CED9__padding[225];
 	};
 };
 #pragma pack(pop, tp)
@@ -782,7 +782,7 @@ struct List_1_tE4111BEC044D13259EFD4EC5907636C855887179_StaticFields
 };
 struct U3CPrivateImplementationDetailsU3E_t00C0999F4BF8AD63812C458719F07DBFE6FD960E_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D241_t70F99D76865497C49986671208351A4AA0DF805A ___9F85A43B9C9226117FF24430B59F31921F946FA9048536F4A4EA9C555B4D6A12;
+	__StaticArrayInitTypeSizeU3D225_t0545A7DF5C61C4A481BD61A9DB833C46A5B5CED9 ___2E33441B26A9607AB1B98BD13D0AFF6E997C32FBE2113C415666AF136E4E0B03;
 	__StaticArrayInitTypeSizeU3D416_t45A92C8138CBB4DA0A241A876213C1FD6617E37B ___D071707EEEB2BDC45E405D4A05F1162C406A25FAB6F15959806AB233E0BC7D49;
 };
 struct String_t_StaticFields
@@ -1276,14 +1276,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 119110
+// Method Definition Index: 119159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tE7838E6C00570D53C698E93CEB8D655EAD20A4B7 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mF99ECB776DE82F267D633B0AC495B5C2F48D49D3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t00C0999F4BF8AD63812C458719F07DBFE6FD960E____9F85A43B9C9226117FF24430B59F31921F946FA9048536F4A4EA9C555B4D6A12_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t00C0999F4BF8AD63812C458719F07DBFE6FD960E____2E33441B26A9607AB1B98BD13D0AFF6E997C32FBE2113C415666AF136E4E0B03_FieldInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t00C0999F4BF8AD63812C458719F07DBFE6FD960E____D071707EEEB2BDC45E405D4A05F1162C406A25FAB6F15959806AB233E0BC7D49_FieldInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -1293,9 +1293,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tE7838E6C00570D53C698E93CEB8D6
 	memset((&V_1), 0, sizeof(V_1));
 	{
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_tE7838E6C00570D53C698E93CEB8D655EAD20A4B7));
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)241));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)225));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t00C0999F4BF8AD63812C458719F07DBFE6FD960E____9F85A43B9C9226117FF24430B59F31921F946FA9048536F4A4EA9C555B4D6A12_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t00C0999F4BF8AD63812C458719F07DBFE6FD960E____2E33441B26A9607AB1B98BD13D0AFF6E997C32FBE2113C415666AF136E4E0B03_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
@@ -1319,7 +1319,7 @@ IL_005d:
 		return L_7;
 	}
 }
-// Method Definition Index: 119111
+// Method Definition Index: 119160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m608BD2242B204BC4AC39E83DB367C76F02E10AB5 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC5F414A832777717A3136819C662C27F06C1D751* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1405,40 +1405,40 @@ IL2CPP_EXTERN_C void MonoScriptData_tE7838E6C00570D53C698E93CEB8D655EAD20A4B7_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 119112
+// Method Definition Index: 119161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HandProcessor_get_callbackOrder_m958B4C6E8703EAFEBECBE20BEE167E86598FB0AB (HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:14>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:14>
 		return 0;
 	}
 }
-// Method Definition Index: 119113
+// Method Definition Index: 119162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HandProcessor_get_processorExampleMode_m70D0F5A33C0656E11782E99CA16FFCAF4AB809AE (HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:54>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:54>
 		int32_t L_0 = __this->___m_ProcessorExampleMode;
 		return L_0;
 	}
 }
-// Method Definition Index: 119114
+// Method Definition Index: 119163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_set_processorExampleMode_m2FCD077855AA7E7730F3B2F08F36646EA4B85259 (HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:55>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:55>
 		int32_t L_0 = ___0_value;
 		__this->___m_ProcessorExampleMode = L_0;
 		return;
 	}
 }
-// Method Definition Index: 119115
+// Method Definition Index: 119164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_ProcessJoints_mE0961ED3D4E7FC2A67F1D353702B10875AE711C4 (HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_subsystem, int32_t ___1_successFlags, int32_t ___2_updateType, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:71>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:71>
 		int32_t L_0 = __this->___m_ProcessorExampleMode;
 		V_1 = L_0;
 		int32_t L_1 = V_1;
@@ -1467,38 +1467,38 @@ IL_0010:
 
 IL_0016:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:74>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:74>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_4 = ___0_subsystem;
 		int32_t L_5 = ___1_successFlags;
 		int32_t L_6 = ___2_updateType;
 		int32_t L_7 = __this->___m_LastProcessorExampleMode;
 		int32_t L_8 = __this->___m_ProcessorExampleMode;
 		HandProcessor_SmoothHandsExample_m1785CE30E1DE5E1DDD2E1861F9DADA6A5ED9DA9E(__this, L_4, L_5, L_6, (bool)((((int32_t)((((int32_t)L_7) == ((int32_t)L_8))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:75>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:75>
 		goto IL_003f;
 	}
 
 IL_0033:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:78>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:78>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_9 = ___0_subsystem;
 		int32_t L_10 = ___1_successFlags;
 		int32_t L_11 = ___2_updateType;
 		HandProcessor_InvertHandsExample_mFED9C09C822211A78EE12198D6414769647E8A42(__this, L_9, L_10, L_11, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:79>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:79>
 		goto IL_003f;
 	}
 
 IL_003f:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:82>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:82>
 		int32_t L_12 = __this->___m_ProcessorExampleMode;
 		__this->___m_LastProcessorExampleMode = L_12;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:83>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:83>
 		return;
 	}
 }
-// Method Definition Index: 119116
+// Method Definition Index: 119165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_SmoothHandsExample_m1785CE30E1DE5E1DDD2E1861F9DADA6A5ED9DA9E (HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_subsystem, int32_t ___1_successFlags, int32_t ___2_updateType, bool ___3_modeChanged, const RuntimeMethod* method) 
 {
 	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 V_0;
@@ -1524,19 +1524,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_SmoothHandsExample_m1785CE
 	int32_t G_B13_0 = 0;
 	int32_t G_B17_0 = 0;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:89>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:89>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = ___0_subsystem;
 		NullCheck(L_0);
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_1;
 		L_1 = XRHandSubsystem_get_leftHand_mD3B931E5129348FEE34C3965A0CF8E62A0CFFB97_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:90>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:90>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_2 = ___0_subsystem;
 		NullCheck(L_2);
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_3;
 		L_3 = XRHandSubsystem_get_rightHand_mDE333FDF35460E1A06BE051AF9C2144B7053ED3C_inline(L_2, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:92>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:92>
 		bool L_4;
 		L_4 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_0), NULL);
 		if (!L_4)
@@ -1565,15 +1565,15 @@ IL_0028:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:94>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:94>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_7;
 		L_7 = XRHand_get_rootPose_m4F34E7F55AEBFD2FF7491364ADB00B27BF86F1A5_inline((&V_0), NULL);
 		V_3 = L_7;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:95>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:95>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_8 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = L_8.___position;
 		V_4 = L_9;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:96>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:96>
 		bool L_10 = __this->___m_FirstFrame;
 		if (L_10)
 		{
@@ -1601,31 +1601,31 @@ IL_0050:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:98>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:98>
 		float L_13;
 		L_13 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		float L_14 = __this->___m_LeftHandSmoothingFactor;
 		V_6 = ((float)il2cpp_codegen_multiply(L_13, L_14));
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:99>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:99>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = __this->___m_LastLeftHandPosition;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_4;
 		float L_17 = V_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
 		L_18 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_15, L_16, L_17, NULL);
 		V_4 = L_18;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:100>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:100>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_19 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_LeftHandPose);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_4;
 		L_19->___position = L_20;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:101>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:101>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_21 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_LeftHandPose);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_22 = V_3;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_23 = L_22.___rotation;
 		L_21->___rotation = L_23;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:103>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:103>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_24 = __this->___m_LeftHandPose;
 		XRHandProcessingUtility_SetRootPose_m116319D83FE5DC86798991011D0230A2531E35EE((&V_0), L_24, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:104>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:104>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_25 = ___0_subsystem;
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_26 = V_0;
 		XRHandProcessingUtility_SetCorrespondingHand_m7AB9505CF0D27B84D54B7AB39746D4B66EED9CD7(L_25, L_26, NULL);
@@ -1633,14 +1633,14 @@ IL_0050:
 
 IL_00ab:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:106>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:106>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = V_4;
 		__this->___m_LastLeftHandPosition = L_27;
 	}
 
 IL_00b4:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:109>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:109>
 		bool L_28;
 		L_28 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_1), NULL);
 		if (!L_28)
@@ -1669,15 +1669,15 @@ IL_00cd:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:111>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:111>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_31;
 		L_31 = XRHand_get_rootPose_m4F34E7F55AEBFD2FF7491364ADB00B27BF86F1A5_inline((&V_1), NULL);
 		V_8 = L_31;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:112>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:112>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_32 = V_8;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = L_32.___position;
 		V_9 = L_33;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:113>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:113>
 		bool L_34 = __this->___m_FirstFrame;
 		if (L_34)
 		{
@@ -1705,31 +1705,31 @@ IL_00f9:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:115>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:115>
 		float L_37;
 		L_37 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		float L_38 = __this->___m_RightHandSmoothingFactor;
 		V_11 = ((float)il2cpp_codegen_multiply(L_37, L_38));
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:116>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:116>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = __this->___m_LastRightHandPosition;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_9;
 		float L_41 = V_11;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
 		L_42 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_39, L_40, L_41, NULL);
 		V_9 = L_42;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:117>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:117>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_43 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_RightHandPose);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = V_9;
 		L_43->___position = L_44;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:118>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:118>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_45 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_RightHandPose);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_46 = V_8;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_47 = L_46.___rotation;
 		L_45->___rotation = L_47;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:120>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:120>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_48 = __this->___m_RightHandPose;
 		XRHandProcessingUtility_SetRootPose_m116319D83FE5DC86798991011D0230A2531E35EE((&V_1), L_48, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:121>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:121>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_49 = ___0_subsystem;
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_50 = V_1;
 		XRHandProcessingUtility_SetCorrespondingHand_m7AB9505CF0D27B84D54B7AB39746D4B66EED9CD7(L_49, L_50, NULL);
@@ -1737,18 +1737,18 @@ IL_00f9:
 
 IL_0155:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:123>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:123>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51 = V_9;
 		__this->___m_LastRightHandPosition = L_51;
 	}
 
 IL_015e:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:125>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:125>
 		return;
 	}
 }
-// Method Definition Index: 119117
+// Method Definition Index: 119166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_InvertHandsExample_mFED9C09C822211A78EE12198D6414769647E8A42 (HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_subsystem, int32_t ___1_successFlags, int32_t ___2_updateType, const RuntimeMethod* method) 
 {
 	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 V_0;
@@ -1761,27 +1761,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_InvertHandsExample_mFED9C0
 	memset((&V_3), 0, sizeof(V_3));
 	bool V_4 = false;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:130>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:130>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = ___0_subsystem;
 		NullCheck(L_0);
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_1;
 		L_1 = XRHandSubsystem_get_leftHand_mD3B931E5129348FEE34C3965A0CF8E62A0CFFB97_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:131>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:131>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2;
 		L_2 = XRHand_get_rootPose_m4F34E7F55AEBFD2FF7491364ADB00B27BF86F1A5_inline((&V_0), NULL);
 		V_1 = L_2;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:133>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:133>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_3 = ___0_subsystem;
 		NullCheck(L_3);
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_4;
 		L_4 = XRHandSubsystem_get_rightHand_mDE333FDF35460E1A06BE051AF9C2144B7053ED3C_inline(L_3, NULL);
 		V_2 = L_4;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:134>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:134>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_5;
 		L_5 = XRHand_get_rootPose_m4F34E7F55AEBFD2FF7491364ADB00B27BF86F1A5_inline((&V_2), NULL);
 		V_3 = L_5;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:136>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:136>
 		bool L_6;
 		L_6 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_0), NULL);
 		V_4 = L_6;
@@ -1792,17 +1792,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_InvertHandsExample_mFED9C0
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:138>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:138>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_8 = V_3;
 		XRHandProcessingUtility_SetRootPose_m116319D83FE5DC86798991011D0230A2531E35EE((&V_0), L_8, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:139>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:139>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_9 = ___0_subsystem;
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_10 = V_0;
 		XRHandProcessingUtility_SetCorrespondingHand_m7AB9505CF0D27B84D54B7AB39746D4B66EED9CD7(L_9, L_10, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:141>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:141>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_11 = V_1;
 		XRHandProcessingUtility_SetRootPose_m116319D83FE5DC86798991011D0230A2531E35EE((&V_2), L_11, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:142>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:142>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_12 = ___0_subsystem;
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_13 = V_2;
 		XRHandProcessingUtility_SetCorrespondingHand_m7AB9505CF0D27B84D54B7AB39746D4B66EED9CD7(L_12, L_13, NULL);
@@ -1810,11 +1810,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_InvertHandsExample_mFED9C0
 
 IL_0050:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:144>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:144>
 		return;
 	}
 }
-// Method Definition Index: 119118
+// Method Definition Index: 119167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_Update_m8C2EA5D1B7C86121F71CFFC2CF0F4BEB953DD702 (HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1831,7 +1831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_Update_m8C2EA5D1B7C86121F7
 	bool V_0 = false;
 	bool V_1 = false;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:148>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:148>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___m_Subsystem;
 		V_0 = (bool)((!(((RuntimeObject*)(XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_1 = V_0;
@@ -1841,18 +1841,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_Update_m8C2EA5D1B7C86121F7
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:149>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:149>
 		goto IL_004c;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:151>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:151>
 		il2cpp_codegen_runtime_class_init_inline(HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699_il2cpp_TypeInfo_var);
 		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_2 = ((HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699_StaticFields*)il2cpp_codegen_static_fields_for(HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699_il2cpp_TypeInfo_var))->___s_SubsystemsReuse;
 		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
 		SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73(L_2, SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73_RuntimeMethod_var);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:152>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:152>
 		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_3 = ((HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699_StaticFields*)il2cpp_codegen_static_fields_for(HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699_il2cpp_TypeInfo_var))->___s_SubsystemsReuse;
 		NullCheck(L_3);
 		int32_t L_4;
@@ -1865,13 +1865,13 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:153>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:153>
 		goto IL_004c;
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:155>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:155>
 		il2cpp_codegen_runtime_class_init_inline(HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699_il2cpp_TypeInfo_var);
 		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_6 = ((HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699_StaticFields*)il2cpp_codegen_static_fields_for(HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699_il2cpp_TypeInfo_var))->___s_SubsystemsReuse;
 		NullCheck(L_6);
@@ -1879,7 +1879,7 @@ IL_002e:
 		L_7 = List_1_get_Item_m75273E2FDEA382223C6F78765C1A71E6A758CF9F(L_6, 0, List_1_get_Item_m75273E2FDEA382223C6F78765C1A71E6A758CF9F_RuntimeMethod_var);
 		__this->___m_Subsystem = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Subsystem), (void*)L_7);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:156>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:156>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_8 = __this->___m_Subsystem;
 		NullCheck(L_8);
 		XRHandSubsystem_RegisterProcessor_TisHandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699_m8544BCA860998AAE0E49F063BCE8402DE2A96695(L_8, __this, XRHandSubsystem_RegisterProcessor_TisHandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699_m8544BCA860998AAE0E49F063BCE8402DE2A96695_RuntimeMethod_var);
@@ -1887,11 +1887,11 @@ IL_002e:
 
 IL_004c:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:157>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:157>
 		return;
 	}
 }
-// Method Definition Index: 119119
+// Method Definition Index: 119168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_OnDisable_mC0509D0BF9D767E869BFCC557DF2C1A674DF343F (HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1902,7 +1902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_OnDisable_mC0509D0BF9D767E
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:161>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:161>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___m_Subsystem;
 		V_0 = (bool)((!(((RuntimeObject*)(XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_1 = V_0;
@@ -1912,22 +1912,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_OnDisable_mC0509D0BF9D767E
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:163>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:163>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_2 = __this->___m_Subsystem;
 		NullCheck(L_2);
 		XRHandSubsystem_UnregisterProcessor_TisHandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699_m030D7B872591E36329D807BDADFA240566F45DE2(L_2, __this, XRHandSubsystem_UnregisterProcessor_TisHandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699_m030D7B872591E36329D807BDADFA240566F45DE2_RuntimeMethod_var);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:164>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:164>
 		__this->___m_Subsystem = (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Subsystem), (void*)(XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)NULL);
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:166>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:166>
 		return;
 	}
 }
-// Method Definition Index: 119120
+// Method Definition Index: 119169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor__ctor_mCF2372D27F78DE776027370CF85F66AE9C76B081 (HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1937,30 +1937,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor__ctor_mCF2372D27F78DE77602
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:38>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:38>
 		__this->___m_FirstFrame = (bool)0;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:41>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:41>
 		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0;
 		L_0 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
 		__this->___m_LeftHandPose = L_0;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:42>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:42>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_1;
 		L_1 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
 		__this->___m_RightHandPose = L_1;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:46>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:46>
 		__this->___m_ProcessorExampleMode = 1;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:47>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:47>
 		__this->___m_LastProcessorExampleMode = 0;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:62>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:62>
 		__this->___m_LeftHandSmoothingFactor = (16.0f);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:66>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:66>
 		__this->___m_RightHandSmoothingFactor = (16.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 119121
+// Method Definition Index: 119170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor__cctor_m3A5AEF6FB3370E138A62B97193566624DB797D32 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1972,7 +1972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor__cctor_m3A5AEF6FB3370E138A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandProcessor.cs:169>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandProcessor.cs:169>
 		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_0 = (List_1_tE4111BEC044D13259EFD4EC5907636C855887179*)il2cpp_codegen_object_new(List_1_tE4111BEC044D13259EFD4EC5907636C855887179_il2cpp_TypeInfo_var);
 		List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4(L_0, List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4_RuntimeMethod_var);
 		((HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699_StaticFields*)il2cpp_codegen_static_fields_for(HandProcessor_tAF2E1BC05F4B6E7A4DC283EF35EC4BF484A60699_il2cpp_TypeInfo_var))->___s_SubsystemsReuse = L_0;
@@ -1996,64 +1996,64 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor__cctor_m3A5AEF6FB3370E138A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 119122
+// Method Definition Index: 119171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HandVisualizer_get_drawMeshes_m7275400E1EAB46D4E9927C72DB7B9BEFCD56C48A (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:76>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:76>
 		bool L_0 = __this->___m_DrawMeshes;
 		return L_0;
 	}
 }
-// Method Definition Index: 119123
+// Method Definition Index: 119172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_set_drawMeshes_m1E84C0A9B80441D0988E22A6124CB045118102AF (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:77>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:77>
 		bool L_0 = ___0_value;
 		__this->___m_DrawMeshes = L_0;
 		return;
 	}
 }
-// Method Definition Index: 119124
+// Method Definition Index: 119173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HandVisualizer_get_debugDrawJoints_m43B0DCD1DA1C987D97211A7DCC81AB167DDED01E (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:94>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:94>
 		bool L_0 = __this->___m_DebugDrawJoints;
 		return L_0;
 	}
 }
-// Method Definition Index: 119125
+// Method Definition Index: 119174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_set_debugDrawJoints_m29C3E110B253EFA0F5AB35CE772CCD914DCEB908 (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:95>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:95>
 		bool L_0 = ___0_value;
 		__this->___m_DebugDrawJoints = L_0;
 		return;
 	}
 }
-// Method Definition Index: 119126
+// Method Definition Index: 119175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HandVisualizer_get_velocityType_m3993D5C424FD0DD27C1B2B995E80DAA282436BE4 (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:112>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:112>
 		int32_t L_0 = __this->___m_VelocityType;
 		return L_0;
 	}
 }
-// Method Definition Index: 119127
+// Method Definition Index: 119176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_set_velocityType_m429AF5A0CAA02F4F2C7774CB79819823622D2C56 (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:113>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:113>
 		int32_t L_0 = ___0_value;
 		__this->___m_VelocityType = L_0;
 		return;
 	}
 }
-// Method Definition Index: 119128
+// Method Definition Index: 119177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_Awake_m0B4DFDF1BA0A99F29439AD82002EB4CA5AEBEB02 (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2065,7 +2065,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_Awake_m0B4DFDF1BA0A99F294
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:128>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:128>
 		bool L_0 = __this->___m_UseOptimizedControls;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -2075,7 +2075,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_Awake_m0B4DFDF1BA0A99F294
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:129>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:129>
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF* L_2;
 		L_2 = InputSystem_get_settings_m8E3E9C0907904CBDBAE96354142AB0A87C7A3B74(NULL);
@@ -2085,18 +2085,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_Awake_m0B4DFDF1BA0A99F294
 
 IL_001c:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:131>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:131>
 		return;
 	}
 }
-// Method Definition Index: 119129
+// Method Definition Index: 119178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnEnable_mFD3A48C0ED1953B32D3660458125A166CCB8642C (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:138>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:138>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___m_Subsystem;
 		V_0 = (bool)((((RuntimeObject*)(XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_1 = V_0;
@@ -2106,13 +2106,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnEnable_mFD3A48C0ED1953B
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:139>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:139>
 		goto IL_0050;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:141>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:141>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_2 = __this->___m_LeftHandGameObjects;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_3 = __this->___m_Subsystem;
 		NullCheck(L_3);
@@ -2122,7 +2122,7 @@ IL_0010:
 		bool L_5;
 		L_5 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_1), NULL);
 		HandVisualizer_UpdateRenderingVisibility_mB27FD99A59C927F46C6726EFD17640927443ECC4(__this, L_2, L_5, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:142>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:142>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_6 = __this->___m_RightHandGameObjects;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_7 = __this->___m_Subsystem;
 		NullCheck(L_7);
@@ -2136,11 +2136,11 @@ IL_0010:
 
 IL_0050:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:143>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:143>
 		return;
 	}
 }
-// Method Definition Index: 119130
+// Method Definition Index: 119179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnDisable_mEB8B51DDAA623F87A7C4E7264BF674410C2B3FAD (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2155,7 +2155,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnDisable_mEB8B51DDAA623F
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:150>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:150>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___m_Subsystem;
 		V_0 = (bool)((!(((RuntimeObject*)(XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_1 = V_0;
@@ -2165,7 +2165,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnDisable_mEB8B51DDAA623F
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:152>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:152>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_2 = __this->___m_Subsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_3 = L_2;
 		NullCheck(L_3);
@@ -2177,7 +2177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnDisable_mEB8B51DDAA623F
 		NullCheck(L_3);
 		L_3->___trackingAcquired = ((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_6, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___trackingAcquired), (void*)((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_6, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:153>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:153>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_7 = __this->___m_Subsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_8 = L_7;
 		NullCheck(L_8);
@@ -2189,7 +2189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnDisable_mEB8B51DDAA623F
 		NullCheck(L_8);
 		L_8->___trackingLost = ((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_11, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_8->___trackingLost), (void*)((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_11, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:154>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:154>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_12 = __this->___m_Subsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_13 = L_12;
 		NullCheck(L_13);
@@ -2201,30 +2201,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnDisable_mEB8B51DDAA623F
 		NullCheck(L_13);
 		L_13->___updatedHands = ((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_16, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_13->___updatedHands), (void*)((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_16, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:155>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:155>
 		__this->___m_Subsystem = (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Subsystem), (void*)(XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)NULL);
 	}
 
 IL_008c:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:158>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:158>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_17 = __this->___m_LeftHandGameObjects;
 		HandVisualizer_UpdateRenderingVisibility_mB27FD99A59C927F46C6726EFD17640927443ECC4(__this, L_17, (bool)0, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:159>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:159>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_18 = __this->___m_RightHandGameObjects;
 		HandVisualizer_UpdateRenderingVisibility_mB27FD99A59C927F46C6726EFD17640927443ECC4(__this, L_18, (bool)0, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:160>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:160>
 		return;
 	}
 }
-// Method Definition Index: 119131
+// Method Definition Index: 119180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnDestroy_m1E3AD25418A7A69E88D7D1EB01F703BFE427D4B3 (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	bool V_1 = false;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:167>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:167>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_0 = __this->___m_LeftHandGameObjects;
 		V_0 = (bool)((!(((RuntimeObject*)(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_1 = V_0;
@@ -2234,18 +2234,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnDestroy_m1E3AD25418A7A6
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:169>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:169>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_2 = __this->___m_LeftHandGameObjects;
 		NullCheck(L_2);
 		HandGameObjects_OnDestroy_mFFD741657385D85096659323F2CF3432CA82D89A(L_2, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:170>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:170>
 		__this->___m_LeftHandGameObjects = (HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LeftHandGameObjects), (void*)(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46*)NULL);
 	}
 
 IL_0023:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:173>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:173>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_3 = __this->___m_RightHandGameObjects;
 		V_1 = (bool)((!(((RuntimeObject*)(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46*)L_3) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_4 = V_1;
@@ -2255,22 +2255,22 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:175>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:175>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_5 = __this->___m_RightHandGameObjects;
 		NullCheck(L_5);
 		HandGameObjects_OnDestroy_mFFD741657385D85096659323F2CF3432CA82D89A(L_5, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:176>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:176>
 		__this->___m_RightHandGameObjects = (HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RightHandGameObjects), (void*)(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46*)NULL);
 	}
 
 IL_0045:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:178>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:178>
 		return;
 	}
 }
-// Method Definition Index: 119132
+// Method Definition Index: 119181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_Update_mAE9387D638417DBBF4CDB3E9EEB7E85811712090 (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2300,7 +2300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_Update_mAE9387D638417DBBF
 	memset((&V_12), 0, sizeof(V_12));
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:185>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:185>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___m_Subsystem;
 		if (!L_0)
 		{
@@ -2331,27 +2331,27 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:186>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:186>
 		goto IL_019f;
 	}
 
 IL_0020:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:188>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:188>
 		il2cpp_codegen_runtime_class_init_inline(HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA_il2cpp_TypeInfo_var);
 		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_4 = ((HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA_StaticFields*)il2cpp_codegen_static_fields_for(HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA_il2cpp_TypeInfo_var))->___s_SubsystemsReuse;
 		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
 		SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73(L_4, SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73_RuntimeMethod_var);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:189>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:189>
 		V_0 = (bool)0;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:190>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:190>
 		V_4 = 0;
 		goto IL_0069;
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:192>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:192>
 		il2cpp_codegen_runtime_class_init_inline(HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA_il2cpp_TypeInfo_var);
 		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_5 = ((HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA_StaticFields*)il2cpp_codegen_static_fields_for(HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA_il2cpp_TypeInfo_var))->___s_SubsystemsReuse;
 		int32_t L_6 = V_4;
@@ -2359,7 +2359,7 @@ IL_0032:
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_7;
 		L_7 = List_1_get_Item_m75273E2FDEA382223C6F78765C1A71E6A758CF9F(L_5, L_6, List_1_get_Item_m75273E2FDEA382223C6F78765C1A71E6A758CF9F_RuntimeMethod_var);
 		V_5 = L_7;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:193>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:193>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_8 = V_5;
 		NullCheck(L_8);
 		bool L_9;
@@ -2372,28 +2372,28 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:195>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:195>
 		HandVisualizer_UnsubscribeHandSubsystem_mD784C69E61B95144CC841114A62A6157A07BF342(__this, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:196>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:196>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_11 = V_5;
 		__this->___m_Subsystem = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Subsystem), (void*)L_11);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:197>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:197>
 		V_0 = (bool)1;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:198>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:198>
 		goto IL_007d;
 	}
 
 IL_0062:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:190>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:190>
 		int32_t L_12 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_12, 1));
 	}
 
 IL_0069:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:190>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:190>
 		int32_t L_13 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA_il2cpp_TypeInfo_var);
 		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_14 = ((HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA_StaticFields*)il2cpp_codegen_static_fields_for(HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA_il2cpp_TypeInfo_var))->___s_SubsystemsReuse;
@@ -2410,7 +2410,7 @@ IL_0069:
 
 IL_007d:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:202>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:202>
 		bool L_17 = V_0;
 		V_8 = (bool)((((int32_t)L_17) == ((int32_t)0))? 1 : 0);
 		bool L_18 = V_8;
@@ -2420,17 +2420,17 @@ IL_007d:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:203>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:203>
 		goto IL_019f;
 	}
 
 IL_008c:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:205>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:205>
 		V_1 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:205>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:205>
 		V_2 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:206>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:206>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_19 = __this->___m_Subsystem;
 		NullCheck(L_19);
 		int32_t L_20;
@@ -2443,10 +2443,10 @@ IL_008c:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:208>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:208>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___m_AndroidXRLeftHandMesh;
 		V_1 = L_22;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:209>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:209>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___m_AndroidXRRightHandMesh;
 		V_2 = L_23;
 		goto IL_00c6;
@@ -2454,17 +2454,17 @@ IL_008c:
 
 IL_00b6:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:213>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:213>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = __this->___m_MetaQuestLeftHandMesh;
 		V_1 = L_24;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:214>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:214>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___m_MetaQuestRightHandMesh;
 		V_2 = L_25;
 	}
 
 IL_00c6:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:217>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:217>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_26 = __this->___m_LeftHandGameObjects;
 		V_10 = (bool)((((RuntimeObject*)(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46*)L_26) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_27 = V_10;
@@ -2474,13 +2474,13 @@ IL_00c6:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:219>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:220>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:221>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:222>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:223>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:224>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:225>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:219>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:220>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:221>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:222>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:223>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:224>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:225>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
 		L_28 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = V_1;
@@ -2495,7 +2495,7 @@ IL_00c6:
 
 IL_00fc:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:228>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:228>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_34 = __this->___m_RightHandGameObjects;
 		V_11 = (bool)((((RuntimeObject*)(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46*)L_34) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_35 = V_11;
@@ -2505,13 +2505,13 @@ IL_00fc:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:230>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:231>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:232>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:233>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:234>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:235>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:236>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:230>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:231>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:232>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:233>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:234>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:235>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:236>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_36;
 		L_36 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37 = V_2;
@@ -2526,7 +2526,7 @@ IL_00fc:
 
 IL_0132:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:239>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:239>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_42 = __this->___m_LeftHandGameObjects;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_43 = __this->___m_Subsystem;
 		NullCheck(L_43);
@@ -2536,7 +2536,7 @@ IL_0132:
 		bool L_45;
 		L_45 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_12), NULL);
 		HandVisualizer_UpdateRenderingVisibility_mB27FD99A59C927F46C6726EFD17640927443ECC4(__this, L_42, L_45, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:240>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:240>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_46 = __this->___m_RightHandGameObjects;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_47 = __this->___m_Subsystem;
 		NullCheck(L_47);
@@ -2546,26 +2546,26 @@ IL_0132:
 		bool L_49;
 		L_49 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_12), NULL);
 		HandVisualizer_UpdateRenderingVisibility_mB27FD99A59C927F46C6726EFD17640927443ECC4(__this, L_46, L_49, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:242>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:242>
 		bool L_50 = __this->___m_DrawMeshes;
 		__this->___m_PreviousDrawMeshes = L_50;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:243>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:243>
 		bool L_51 = __this->___m_DebugDrawJoints;
 		__this->___m_PreviousDebugDrawJoints = L_51;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:244>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:244>
 		int32_t L_52 = __this->___m_VelocityType;
 		__this->___m_PreviousVelocityType = L_52;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:246>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:246>
 		HandVisualizer_SubscribeHandSubsystem_m0131D2B5938B9C22972ABA76E7744E4515A5346C(__this, NULL);
 	}
 
 IL_019f:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:247>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:247>
 		return;
 	}
 }
-// Method Definition Index: 119133
+// Method Definition Index: 119182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_SubscribeHandSubsystem_m0131D2B5938B9C22972ABA76E7744E4515A5346C (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2580,7 +2580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_SubscribeHandSubsystem_m0
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:251>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:251>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___m_Subsystem;
 		V_0 = (bool)((((RuntimeObject*)(XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_1 = V_0;
@@ -2590,13 +2590,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_SubscribeHandSubsystem_m0
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:252>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:252>
 		goto IL_0085;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:254>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:254>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_2 = __this->___m_Subsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_3 = L_2;
 		NullCheck(L_3);
@@ -2608,7 +2608,7 @@ IL_0010:
 		NullCheck(L_3);
 		L_3->___trackingAcquired = ((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_6, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___trackingAcquired), (void*)((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_6, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:255>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:255>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_7 = __this->___m_Subsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_8 = L_7;
 		NullCheck(L_8);
@@ -2620,7 +2620,7 @@ IL_0010:
 		NullCheck(L_8);
 		L_8->___trackingLost = ((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_11, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_8->___trackingLost), (void*)((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_11, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:256>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:256>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_12 = __this->___m_Subsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_13 = L_12;
 		NullCheck(L_13);
@@ -2636,11 +2636,11 @@ IL_0010:
 
 IL_0085:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:257>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:257>
 		return;
 	}
 }
-// Method Definition Index: 119134
+// Method Definition Index: 119183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_UnsubscribeHandSubsystem_mD784C69E61B95144CC841114A62A6157A07BF342 (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2655,7 +2655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_UnsubscribeHandSubsystem_
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:261>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:261>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___m_Subsystem;
 		V_0 = (bool)((((RuntimeObject*)(XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_1 = V_0;
@@ -2665,13 +2665,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_UnsubscribeHandSubsystem_
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:262>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:262>
 		goto IL_0085;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:264>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:264>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_2 = __this->___m_Subsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_3 = L_2;
 		NullCheck(L_3);
@@ -2683,7 +2683,7 @@ IL_0010:
 		NullCheck(L_3);
 		L_3->___trackingAcquired = ((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_6, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___trackingAcquired), (void*)((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_6, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:265>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:265>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_7 = __this->___m_Subsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_8 = L_7;
 		NullCheck(L_8);
@@ -2695,7 +2695,7 @@ IL_0010:
 		NullCheck(L_8);
 		L_8->___trackingLost = ((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_11, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_8->___trackingLost), (void*)((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_11, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:266>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:266>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_12 = __this->___m_Subsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_13 = L_12;
 		NullCheck(L_13);
@@ -2711,11 +2711,11 @@ IL_0010:
 
 IL_0085:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:267>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:267>
 		return;
 	}
 }
-// Method Definition Index: 119135
+// Method Definition Index: 119184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_UpdateRenderingVisibility_mB27FD99A59C927F46C6726EFD17640927443ECC4 (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* ___0_handGameObjects, bool ___1_isTracked, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -2724,7 +2724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_UpdateRenderingVisibility
 	int32_t G_B5_0 = 0;
 	HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* G_B5_1 = NULL;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:271>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:271>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_0 = ___0_handGameObjects;
 		V_0 = (bool)((((RuntimeObject*)(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_1 = V_0;
@@ -2734,24 +2734,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_UpdateRenderingVisibility
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:272>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:272>
 		goto IL_003a;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:274>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:274>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_2 = ___0_handGameObjects;
 		bool L_3 = __this->___m_DrawMeshes;
 		NullCheck(L_2);
 		HandGameObjects_ToggleDrawMesh_mC982B95C29FCB26A14CAEB46C7A871399116D5CB(L_2, L_3, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:275>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:275>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_4 = ___0_handGameObjects;
 		bool L_5 = __this->___m_DebugDrawJoints;
 		bool L_6 = ___1_isTracked;
 		NullCheck(L_4);
 		HandGameObjects_ToggleDebugDrawJoints_mFFFDA7DC55D205B523587A86A06E9178C3261631(L_4, (bool)((int32_t)((int32_t)L_5&(int32_t)L_6)), NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:276>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:276>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_7 = ___0_handGameObjects;
 		bool L_8 = ___1_isTracked;
 		if (L_8)
@@ -2782,17 +2782,17 @@ IL_0034:
 
 IL_003a:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:277>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:277>
 		return;
 	}
 }
-// Method Definition Index: 119136
+// Method Definition Index: 119185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnTrackingAcquired_m8D4B12EACD80C639BADF0A296B09B92582D1DBE7 (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:281>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:281>
 		int32_t L_0;
 		L_0 = XRHand_get_handedness_m87563F81CAF693404C49463EAC73DA29D517F752_inline((&___0_hand), NULL);
 		V_1 = L_0;
@@ -2822,35 +2822,35 @@ IL_0011:
 
 IL_0017:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:284>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:284>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_4 = __this->___m_LeftHandGameObjects;
 		HandVisualizer_UpdateRenderingVisibility_mB27FD99A59C927F46C6726EFD17640927443ECC4(__this, L_4, (bool)1, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:285>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:285>
 		goto IL_0037;
 	}
 
 IL_0027:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:288>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:288>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_5 = __this->___m_RightHandGameObjects;
 		HandVisualizer_UpdateRenderingVisibility_mB27FD99A59C927F46C6726EFD17640927443ECC4(__this, L_5, (bool)1, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:289>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:289>
 		goto IL_0037;
 	}
 
 IL_0037:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:291>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:291>
 		return;
 	}
 }
-// Method Definition Index: 119137
+// Method Definition Index: 119186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnTrackingLost_m065A2388B227058697BBFBB0826D777B27EBBA20 (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:295>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:295>
 		int32_t L_0;
 		L_0 = XRHand_get_handedness_m87563F81CAF693404C49463EAC73DA29D517F752_inline((&___0_hand), NULL);
 		V_1 = L_0;
@@ -2880,29 +2880,29 @@ IL_0011:
 
 IL_0017:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:298>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:298>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_4 = __this->___m_LeftHandGameObjects;
 		HandVisualizer_UpdateRenderingVisibility_mB27FD99A59C927F46C6726EFD17640927443ECC4(__this, L_4, (bool)0, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:299>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:299>
 		goto IL_0037;
 	}
 
 IL_0027:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:302>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:302>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_5 = __this->___m_RightHandGameObjects;
 		HandVisualizer_UpdateRenderingVisibility_mB27FD99A59C927F46C6726EFD17640927443ECC4(__this, L_5, (bool)0, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:303>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:303>
 		goto IL_0037;
 	}
 
 IL_0037:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:305>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:305>
 		return;
 	}
 }
-// Method Definition Index: 119138
+// Method Definition Index: 119187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnUpdatedHands_mA9FF648CC47BC2A5C77C545C8EA9ED2B16B02371 (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_subsystem, int32_t ___1_updateSuccessFlags, int32_t ___2_updateType, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -2922,7 +2922,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnUpdatedHands_mA9FF648CC
 	int32_t G_B13_0 = 0;
 	HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* G_B13_1 = NULL;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:312>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:312>
 		int32_t L_0 = ___2_updateType;
 		V_2 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 		bool L_1 = V_2;
@@ -2932,13 +2932,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnUpdatedHands_mA9FF648CC
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:313>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:313>
 		goto IL_015f;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:315>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:315>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_2 = ___0_subsystem;
 		NullCheck(L_2);
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_3;
@@ -2947,7 +2947,7 @@ IL_000e:
 		bool L_4;
 		L_4 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_3), NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:316>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:316>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_5 = ___0_subsystem;
 		NullCheck(L_5);
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_6;
@@ -2956,7 +2956,7 @@ IL_000e:
 		bool L_7;
 		L_7 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_3), NULL);
 		V_1 = L_7;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:318>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:318>
 		bool L_8 = __this->___m_PreviousDrawMeshes;
 		bool L_9 = __this->___m_DrawMeshes;
 		V_4 = (bool)((((int32_t)((((int32_t)L_8) == ((int32_t)L_9))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -2967,24 +2967,24 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:320>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:320>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_11 = __this->___m_LeftHandGameObjects;
 		bool L_12 = __this->___m_DrawMeshes;
 		NullCheck(L_11);
 		HandGameObjects_ToggleDrawMesh_mC982B95C29FCB26A14CAEB46C7A871399116D5CB(L_11, L_12, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:321>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:321>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_13 = __this->___m_RightHandGameObjects;
 		bool L_14 = __this->___m_DrawMeshes;
 		NullCheck(L_13);
 		HandGameObjects_ToggleDrawMesh_mC982B95C29FCB26A14CAEB46C7A871399116D5CB(L_13, L_14, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:322>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:322>
 		bool L_15 = __this->___m_DrawMeshes;
 		__this->___m_PreviousDrawMeshes = L_15;
 	}
 
 IL_0075:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:325>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:325>
 		bool L_16 = __this->___m_PreviousDebugDrawJoints;
 		bool L_17 = __this->___m_DebugDrawJoints;
 		V_5 = (bool)((((int32_t)((((int32_t)L_16) == ((int32_t)L_17))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -2995,26 +2995,26 @@ IL_0075:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:327>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:327>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_19 = __this->___m_LeftHandGameObjects;
 		bool L_20 = __this->___m_DebugDrawJoints;
 		bool L_21 = V_0;
 		NullCheck(L_19);
 		HandGameObjects_ToggleDebugDrawJoints_mFFFDA7DC55D205B523587A86A06E9178C3261631(L_19, (bool)((int32_t)((int32_t)L_20&(int32_t)L_21)), NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:328>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:328>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_22 = __this->___m_RightHandGameObjects;
 		bool L_23 = __this->___m_DebugDrawJoints;
 		bool L_24 = V_1;
 		NullCheck(L_22);
 		HandGameObjects_ToggleDebugDrawJoints_mFFFDA7DC55D205B523587A86A06E9178C3261631(L_22, (bool)((int32_t)((int32_t)L_23&(int32_t)L_24)), NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:329>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:329>
 		bool L_25 = __this->___m_DebugDrawJoints;
 		__this->___m_PreviousDebugDrawJoints = L_25;
 	}
 
 IL_00c2:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:332>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:332>
 		int32_t L_26 = __this->___m_PreviousVelocityType;
 		int32_t L_27 = __this->___m_VelocityType;
 		V_6 = (bool)((((int32_t)((((int32_t)L_26) == ((int32_t)L_27))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -3025,7 +3025,7 @@ IL_00c2:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:334>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:334>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_29 = __this->___m_LeftHandGameObjects;
 		bool L_30 = V_0;
 		if (L_30)
@@ -3052,7 +3052,7 @@ IL_00ec:
 	{
 		NullCheck(G_B10_1);
 		HandGameObjects_SetVelocityType_m06E48E41962A1F98CC2FC70B8046714CDA1BC0C8(G_B10_1, G_B10_0, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:335>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:335>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_32 = __this->___m_RightHandGameObjects;
 		bool L_33 = V_1;
 		if (L_33)
@@ -3079,18 +3079,18 @@ IL_0104:
 	{
 		NullCheck(G_B13_1);
 		HandGameObjects_SetVelocityType_m06E48E41962A1F98CC2FC70B8046714CDA1BC0C8(G_B13_1, G_B13_0, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:336>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:336>
 		int32_t L_35 = __this->___m_VelocityType;
 		__this->___m_PreviousVelocityType = L_35;
 	}
 
 IL_0117:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:339>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:340>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:341>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:342>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:343>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:339>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:340>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:341>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:342>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:343>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_36 = __this->___m_LeftHandGameObjects;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_37 = ___0_subsystem;
 		NullCheck(L_37);
@@ -3101,11 +3101,11 @@ IL_0117:
 		int32_t L_41 = __this->___m_VelocityType;
 		NullCheck(L_36);
 		HandGameObjects_UpdateJoints_mB277047A702377DE376BDB58EFD46C7B19D8DD2B(L_36, L_38, (bool)((!(((uint32_t)((int32_t)((int32_t)L_39&2))) <= ((uint32_t)0)))? 1 : 0), L_40, L_41, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:345>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:346>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:347>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:348>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:349>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:345>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:346>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:347>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:348>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:349>
 		HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* L_42 = __this->___m_RightHandGameObjects;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_43 = ___0_subsystem;
 		NullCheck(L_43);
@@ -3120,11 +3120,11 @@ IL_0117:
 
 IL_015f:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:350>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:350>
 		return;
 	}
 }
-// Method Definition Index: 119139
+// Method Definition Index: 119188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer__ctor_m45BB24D5A6C717900F5A3A35A5C9CFDF3593CFF4 (HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3132,7 +3132,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer__ctor_m45BB24D5A6C717900F
 		return;
 	}
 }
-// Method Definition Index: 119140
+// Method Definition Index: 119189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer__cctor_m474261C676CCB1492A2EFB9341B9839132C4DFE5 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3144,7 +3144,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer__cctor_m474261C676CCB1492
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:120>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:120>
 		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_0 = (List_1_tE4111BEC044D13259EFD4EC5907636C855887179*)il2cpp_codegen_object_new(List_1_tE4111BEC044D13259EFD4EC5907636C855887179_il2cpp_TypeInfo_var);
 		List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4(L_0, List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4_RuntimeMethod_var);
 		((HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA_StaticFields*)il2cpp_codegen_static_fields_for(HandVisualizer_t525FFA29E5A0F872187E3DD0877883F7670A40FA_il2cpp_TypeInfo_var))->___s_SubsystemsReuse = L_0;
@@ -3168,7 +3168,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer__cctor_m474261C676CCB1492
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 119141
+// Method Definition Index: 119190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects__ctor_m402BDB305AF870DDD7F05E9FC6D0ED5ED2137857 (HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* __this, int32_t ___0_handedness, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_meshPrefab, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___3_meshMaterial, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___4_debugDrawPrefab, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___5_velocityPrefab, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3229,25 +3229,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects__ctor_m402BDB305AF870DDD
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* G_B3_0 = NULL;
 	HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:357>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:357>
 		int32_t L_0;
 		L_0 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)27), NULL);
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = (GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)SZArrayNew(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF_il2cpp_TypeInfo_var, (uint32_t)L_0);
 		__this->___m_DrawJoints = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DrawJoints), (void*)L_1);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:358>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:358>
 		int32_t L_2;
 		L_2 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)27), NULL);
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_3 = (GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)SZArrayNew(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF_il2cpp_TypeInfo_var, (uint32_t)L_2);
 		__this->___m_VelocityParents = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_VelocityParents), (void*)L_3);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:359>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:359>
 		int32_t L_4;
 		L_4 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)27), NULL);
 		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_5 = (LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A*)(LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A*)SZArrayNew(LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A_il2cpp_TypeInfo_var, (uint32_t)L_4);
 		__this->___m_Lines = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Lines), (void*)L_5);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:360>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:360>
 		int32_t L_6;
 		L_6 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)27), NULL);
 		JointVisualizerU5BU5D_tF99433B758325E9EBC0469834FEFB3EEE45EDDBC* L_7 = (JointVisualizerU5BU5D_tF99433B758325E9EBC0469834FEFB3EEE45EDDBC*)(JointVisualizerU5BU5D_tF99433B758325E9EBC0469834FEFB3EEE45EDDBC*)SZArrayNew(JointVisualizerU5BU5D_tF99433B758325E9EBC0469834FEFB3EEE45EDDBC_il2cpp_TypeInfo_var, (uint32_t)L_6);
@@ -3259,17 +3259,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects__ctor_m402BDB305AF870DDD
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = ___5_velocityPrefab;
 		(&V_0)->___velocityPrefab = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___velocityPrefab), (void*)L_9);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:366>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:367>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:368>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:369>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:370>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:371>
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:372>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:366>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:367>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:368>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:369>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:370>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:371>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:372>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		(&V_0)->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___U3CU3E4__this), (void*)__this);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:396>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:396>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = ___2_meshPrefab;
 		NullCheck(L_10);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_11;
@@ -3278,7 +3278,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects__ctor_m402BDB305AF870DDD
 		bool L_12;
 		L_12 = Scene_IsValid_m0D5200731D3E26ECBBB55803F9242965A14A4599((&V_4), NULL);
 		V_1 = L_12;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:397>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:397>
 		bool L_13 = V_1;
 		if (L_13)
 		{
@@ -3310,11 +3310,11 @@ IL_0089:
 		NullCheck(G_B3_1);
 		G_B3_1->___m_HandRoot = G_B3_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B3_1->___m_HandRoot), (void*)G_B3_0);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:398>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:398>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___m_HandRoot;
 		NullCheck(L_18);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:400>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:400>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___m_HandRoot;
 		NullCheck(L_19);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
@@ -3323,7 +3323,7 @@ IL_0089:
 		L_21 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		NullCheck(L_20);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_20, L_21, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:401>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:401>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___m_HandRoot;
 		NullCheck(L_22);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
@@ -3332,13 +3332,13 @@ IL_0089:
 		L_24 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		NullCheck(L_23);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_23, L_24, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:403>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:403>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___m_HandRoot;
 		NullCheck(L_25);
 		XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* L_26;
 		L_26 = GameObject_GetComponent_TisXRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C_m6497F69000D8E4A8EB16945591E0EA5C21D1CA2A(L_25, GameObject_GetComponent_TisXRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C_m6497F69000D8E4A8EB16945591E0EA5C21D1CA2A_RuntimeMethod_var);
 		V_2 = L_26;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:404>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:404>
 		XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* L_27 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_28;
@@ -3351,17 +3351,17 @@ IL_0089:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:406>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:406>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = __this->___m_HandRoot;
 		NullCheck(L_30);
 		XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* L_31;
 		L_31 = GameObject_AddComponent_TisXRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C_mADC3C017664513070D3093477B302FC7198E8F2A(L_30, GameObject_AddComponent_TisXRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C_mADC3C017664513070D3093477B302FC7198E8F2A_RuntimeMethod_var);
 		V_2 = L_31;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:407>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:407>
 		XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* L_32 = V_2;
 		NullCheck(L_32);
 		XRHandTrackingEvents_set_updateType_m7AD23779101D561EAEC21BA41FD45AF39679DFA7_inline(L_32, 1, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:408>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:408>
 		XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* L_33 = V_2;
 		int32_t L_34 = ___0_handedness;
 		NullCheck(L_33);
@@ -3370,14 +3370,14 @@ IL_0089:
 
 IL_00fe:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:411>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:411>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = __this->___m_HandRoot;
 		NullCheck(L_35);
 		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_36;
 		L_36 = GameObject_GetComponent_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_mFAD7BA6D178A79C7E03843EA1B08D4CE16E248B2(L_35, GameObject_GetComponent_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_mFAD7BA6D178A79C7E03843EA1B08D4CE16E248B2_RuntimeMethod_var);
 		__this->___m_MeshController = L_36;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MeshController), (void*)L_36);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:412>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:412>
 		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_37 = __this->___m_MeshController;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_38;
@@ -3390,21 +3390,21 @@ IL_00fe:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:414>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:414>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_40 = __this->___m_HandRoot;
 		NullCheck(L_40);
 		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_41;
 		L_41 = GameObject_AddComponent_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_m0EF34ABB02714F807910BD0C78AB85F2D25D023D(L_40, GameObject_AddComponent_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_m0EF34ABB02714F807910BD0C78AB85F2D25D023D_RuntimeMethod_var);
 		__this->___m_MeshController = L_41;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MeshController), (void*)L_41);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:415>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:415>
 		V_7 = 0;
 		goto IL_0171;
 	}
 
 IL_0138:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:417>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:417>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_42 = __this->___m_HandRoot;
 		NullCheck(L_42);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_43;
@@ -3414,7 +3414,7 @@ IL_0138:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_45;
 		L_45 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_43, L_44, NULL);
 		V_8 = L_45;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:418>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:418>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_46 = V_8;
 		NullCheck(L_46);
 		bool L_47;
@@ -3427,7 +3427,7 @@ IL_0138:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:419>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:419>
 		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_49 = __this->___m_MeshController;
 		SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E* L_50 = V_9;
 		NullCheck(L_49);
@@ -3436,14 +3436,14 @@ IL_0138:
 
 IL_016a:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:415>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:415>
 		int32_t L_51 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_51, 1));
 	}
 
 IL_0171:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:415>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:415>
 		int32_t L_52 = V_7;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_53 = __this->___m_HandRoot;
 		NullCheck(L_53);
@@ -3460,7 +3460,7 @@ IL_0171:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:422>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:422>
 		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_57 = __this->___m_MeshController;
 		XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* L_58 = V_2;
 		NullCheck(L_57);
@@ -3469,7 +3469,7 @@ IL_0171:
 
 IL_0199:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:425>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:425>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_59 = ___3_meshMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_60;
@@ -3482,7 +3482,7 @@ IL_0199:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:427>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:427>
 		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_62 = __this->___m_MeshController;
 		NullCheck(L_62);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_63;
@@ -3494,13 +3494,13 @@ IL_0199:
 
 IL_01bc:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:430>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:430>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_65 = __this->___m_HandRoot;
 		NullCheck(L_65);
 		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_66;
 		L_66 = GameObject_GetComponent_TisXRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9_m3BF356CDEFCB41719801691285453F0D76FB5251(L_65, GameObject_GetComponent_TisXRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9_m3BF356CDEFCB41719801691285453F0D76FB5251_RuntimeMethod_var);
 		V_3 = L_66;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:431>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:431>
 		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_67 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_68;
@@ -3513,28 +3513,28 @@ IL_01bc:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:433>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:433>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_70 = __this->___m_HandRoot;
 		NullCheck(L_70);
 		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_71;
 		L_71 = GameObject_AddComponent_TisXRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9_m8D2D63A6AD343A90A9DDF71D360B7AD36BC3B4F2(L_70, GameObject_AddComponent_TisXRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9_m8D2D63A6AD343A90A9DDF71D360B7AD36BC3B4F2_RuntimeMethod_var);
 		V_3 = L_71;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:434>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:434>
 		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_72 = V_3;
 		List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* L_73 = (List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F*)il2cpp_codegen_object_new(List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F_il2cpp_TypeInfo_var);
 		List_1__ctor_mF9E011AC0B45B83F28F733B52084915C67A264CD(L_73, List_1__ctor_mF9E011AC0B45B83F28F733B52084915C67A264CD_RuntimeMethod_var);
 		NullCheck(L_72);
 		XRHandSkeletonDriver_set_jointTransformReferences_m1498B75A0BDB9AF2603CF62C118DE8FFA84E9E36(L_72, L_73, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:435>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:435>
 		V_14 = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:436>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:436>
 		V_15 = 0;
 		goto IL_0240;
 	}
 
 IL_01f9:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:438>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:438>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_74 = __this->___m_HandRoot;
 		NullCheck(L_74);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_75;
@@ -3544,7 +3544,7 @@ IL_01f9:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_77;
 		L_77 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_75, L_76, NULL);
 		V_16 = L_77;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:439>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:439>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_78 = V_16;
 		NullCheck(L_78);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_79;
@@ -3567,21 +3567,21 @@ IL_01f9:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:440>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:440>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_85 = V_16;
 		V_14 = L_85;
 	}
 
 IL_0239:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:436>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:436>
 		int32_t L_86 = V_15;
 		V_15 = ((int32_t)il2cpp_codegen_add(L_86, 1));
 	}
 
 IL_0240:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:436>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:436>
 		int32_t L_87 = V_15;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_88 = __this->___m_HandRoot;
 		NullCheck(L_88);
@@ -3598,19 +3598,19 @@ IL_0240:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:443>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:443>
 		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_92 = V_3;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_93 = V_14;
 		NullCheck(L_92);
 		XRHandSkeletonDriver_set_rootTransform_mE5EA2C57F67949501CEC763615F2CFC3309BA34D(L_92, L_93, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:444>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:444>
 		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_94 = V_3;
 		XRHandSkeletonDriverUtility_FindJointsFromRoot_mF7F7E290233CB82676A5CEE92A8BBE25E320359D(L_94, (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)NULL, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:445>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:445>
 		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_95 = V_3;
 		NullCheck(L_95);
 		XRHandSkeletonDriver_InitializeFromSerializedReferences_m1CADD44CEE67DBFF31D4C3D11CFC5C103573A314(L_95, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:446>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:446>
 		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_96 = V_3;
 		XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* L_97 = V_2;
 		NullCheck(L_96);
@@ -3619,12 +3619,12 @@ IL_0240:
 
 IL_027b:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:449>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:449>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_98 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD(L_98, NULL);
 		__this->___m_DrawJointsParent = L_98;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DrawJointsParent), (void*)L_98);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:450>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:450>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_99 = __this->___m_DrawJointsParent;
 		NullCheck(L_99);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_100;
@@ -3632,7 +3632,7 @@ IL_027b:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_101 = ___1_parent;
 		NullCheck(L_100);
 		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_100, L_101, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:451>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:451>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_102 = __this->___m_DrawJointsParent;
 		NullCheck(L_102);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_103;
@@ -3641,7 +3641,7 @@ IL_027b:
 		L_104 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		NullCheck(L_103);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_103, L_104, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:452>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:452>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_105 = __this->___m_DrawJointsParent;
 		NullCheck(L_105);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_106;
@@ -3650,7 +3650,7 @@ IL_027b:
 		L_107 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		NullCheck(L_106);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_106, L_107, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:453>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:453>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_108 = __this->___m_DrawJointsParent;
 		Il2CppFakeBox<int32_t> L_109(Handedness_tC87DA4E9D99745447BF40B631E8B479E32D8E37F_il2cpp_TypeInfo_var, (&___0_handedness));
 		String_t* L_110;
@@ -3659,14 +3659,14 @@ IL_027b:
 		L_111 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_110, _stringLiteral4A4955D176516025430352DFFE6DF5974DEB47AB, NULL);
 		NullCheck(L_108);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_108, L_111, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:455>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:455>
 		V_20 = 0;
 		goto IL_032d;
 	}
 
 IL_02ec:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:457>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:457>
 		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_112 = V_3;
 		NullCheck(L_112);
 		List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* L_113;
@@ -3676,15 +3676,15 @@ IL_02ec:
 		JointToTransformReference_t5DC7424A5741B60B0DFA15056D7F7EBF38721202 L_115;
 		L_115 = List_1_get_Item_m86F4130198090303E1C3BF94F8DCDDB031FF0DDA(L_113, L_114, List_1_get_Item_m86F4130198090303E1C3BF94F8DCDDB031FF0DDA_RuntimeMethod_var);
 		V_21 = L_115;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:458>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:458>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_116;
 		L_116 = JointToTransformReference_get_jointTransform_m81EAC20A1665D7F6AA85653F77AFFD9E4980AC40_inline((&V_21), NULL);
 		V_22 = L_116;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:459>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:459>
 		int32_t L_117;
 		L_117 = JointToTransformReference_get_xrHandJointID_m07248164E6B8E31BA297F25AFEBA64AF30F79BF4_inline((&V_21), NULL);
 		V_23 = L_117;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:460>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:460>
 		int32_t L_118 = V_23;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_119 = V_22;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_120 = __this->___m_DrawJointsParent;
@@ -3692,14 +3692,14 @@ IL_02ec:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_121;
 		L_121 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_120, NULL);
 		HandGameObjects_U3C_ctorU3Eg__AssignJointU7C9_0_m575A421A248D5F6675FCCC76499CBDE8C34DD533(__this, L_118, L_119, L_121, (&V_0), NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:455>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:455>
 		int32_t L_122 = V_20;
 		V_20 = ((int32_t)il2cpp_codegen_add(L_122, 1));
 	}
 
 IL_032d:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:455>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:455>
 		int32_t L_123 = V_20;
 		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_124 = V_3;
 		NullCheck(L_124);
@@ -3716,15 +3716,15 @@ IL_032d:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:463>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:463>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_128 = __this->___m_HandRoot;
 		NullCheck(L_128);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_128, (bool)1, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:464>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:464>
 		return;
 	}
 }
-// Method Definition Index: 119142
+// Method Definition Index: 119191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_OnDestroy_mFFD741657385D85096659323F2CF3432CA82D89A (HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3738,21 +3738,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_OnDestroy_mFFD741657385D
 	int32_t V_2 = 0;
 	bool V_3 = false;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:468>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:468>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_HandRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_0, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:469>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:469>
 		__this->___m_HandRoot = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_HandRoot), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:471>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:471>
 		V_0 = 0;
 		goto IL_0035;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:473>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:473>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = __this->___m_DrawJoints;
 		int32_t L_2 = V_0;
 		NullCheck(L_1);
@@ -3760,20 +3760,20 @@ IL_0018:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_4, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:474>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:474>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_5 = __this->___m_DrawJoints;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, NULL);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(L_6), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:471>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:471>
 		int32_t L_7 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:471>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:471>
 		int32_t L_8 = V_0;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_9 = __this->___m_DrawJoints;
 		NullCheck(L_9);
@@ -3785,14 +3785,14 @@ IL_0035:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:477>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:477>
 		V_2 = 0;
 		goto IL_0065;
 	}
 
 IL_0048:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:479>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:479>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_11 = __this->___m_VelocityParents;
 		int32_t L_12 = V_2;
 		NullCheck(L_11);
@@ -3800,20 +3800,20 @@ IL_0048:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_14, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:480>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:480>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_15 = __this->___m_VelocityParents;
 		int32_t L_16 = V_2;
 		NullCheck(L_15);
 		ArrayElementTypeCheck (L_15, NULL);
 		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(L_16), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:477>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:477>
 		int32_t L_17 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_17, 1));
 	}
 
 IL_0065:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:477>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:477>
 		int32_t L_18 = V_2;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_19 = __this->___m_VelocityParents;
 		NullCheck(L_19);
@@ -3825,28 +3825,28 @@ IL_0065:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:483>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:483>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___m_DrawJointsParent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_21, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:484>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:484>
 		__this->___m_DrawJointsParent = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DrawJointsParent), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:485>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:485>
 		return;
 	}
 }
-// Method Definition Index: 119143
+// Method Definition Index: 119192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_ToggleDrawMesh_mC982B95C29FCB26A14CAEB46C7A871399116D5CB (HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* __this, bool ___0_drawMesh, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:489>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:489>
 		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_0 = __this->___m_MeshController;
 		bool L_1 = ___0_drawMesh;
 		NullCheck(L_0);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_0, L_1, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:490>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:490>
 		bool L_2 = ___0_drawMesh;
 		V_0 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 		bool L_3 = V_0;
@@ -3856,7 +3856,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_ToggleDrawMesh_mC982B95C
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:491>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:491>
 		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_4 = __this->___m_MeshController;
 		NullCheck(L_4);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_5;
@@ -3867,11 +3867,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_ToggleDrawMesh_mC982B95C
 
 IL_0028:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:492>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:492>
 		return;
 	}
 }
-// Method Definition Index: 119144
+// Method Definition Index: 119193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_ToggleDebugDrawJoints_mFFFDA7DC55D205B523587A86A06E9178C3261631 (HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* __this, bool ___0_debugDrawJoints, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3884,14 +3884,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_ToggleDebugDrawJoints_mF
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:496>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:496>
 		V_0 = 0;
 		goto IL_002e;
 	}
 
 IL_0005:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:498>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:498>
 		bool L_0 = ___0_debugDrawJoints;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = __this->___m_DrawJoints;
 		int32_t L_2 = V_0;
@@ -3903,7 +3903,7 @@ IL_0005:
 		L_5 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_4, NULL);
 		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var);
 		HandGameObjects_ToggleRenderers_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_mCA38FA8A620BBFAA7CF05E161D23DE4F8B631A54(L_0, L_5, HandGameObjects_ToggleRenderers_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_mCA38FA8A620BBFAA7CF05E161D23DE4F8B631A54_RuntimeMethod_var);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:499>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:499>
 		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_6 = __this->___m_Lines;
 		int32_t L_7 = V_0;
 		NullCheck(L_6);
@@ -3912,14 +3912,14 @@ IL_0005:
 		bool L_10 = ___0_debugDrawJoints;
 		NullCheck(L_9);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_9, L_10, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:496>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:496>
 		int32_t L_11 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:496>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:496>
 		int32_t L_12 = V_0;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_13 = __this->___m_DrawJoints;
 		NullCheck(L_13);
@@ -3931,18 +3931,18 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:502>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:502>
 		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_15 = __this->___m_Lines;
 		NullCheck(L_15);
 		int32_t L_16 = 0;
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
 		NullCheck(L_17);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_17, (bool)0, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:503>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:503>
 		return;
 	}
 }
-// Method Definition Index: 119145
+// Method Definition Index: 119194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_SetVelocityType_m06E48E41962A1F98CC2FC70B8046714CDA1BC0C8 (HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* __this, int32_t ___0_velocityType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3955,14 +3955,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_SetVelocityType_m06E48E4
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:507>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:507>
 		V_0 = 0;
 		goto IL_0023;
 	}
 
 IL_0005:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:508>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:508>
 		int32_t L_0 = ___0_velocityType;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = __this->___m_VelocityParents;
 		int32_t L_2 = V_0;
@@ -3974,14 +3974,14 @@ IL_0005:
 		L_5 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_4, NULL);
 		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var);
 		HandGameObjects_ToggleRenderers_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mC174D61B7562087658170E8997B9B1C91D4DC0F1((bool)((((int32_t)((((int32_t)L_0) == ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0), L_5, HandGameObjects_ToggleRenderers_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mC174D61B7562087658170E8997B9B1C91D4DC0F1_RuntimeMethod_var);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:507>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:507>
 		int32_t L_6 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
 	}
 
 IL_0023:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:507>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:507>
 		int32_t L_7 = V_0;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_8 = __this->___m_VelocityParents;
 		NullCheck(L_8);
@@ -3993,11 +3993,11 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:509>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:509>
 		return;
 	}
 }
-// Method Definition Index: 119146
+// Method Definition Index: 119195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_UpdateJoints_mB277047A702377DE376BDB58EFD46C7B19D8DD2B (HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, bool ___1_areJointsTracked, bool ___2_debugDrawJoints, int32_t ___3_velocityType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4019,7 +4019,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_UpdateJoints_mB277047A70
 	bool V_8 = false;
 	bool V_9 = false;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:517>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:517>
 		bool L_0 = ___1_areJointsTracked;
 		V_2 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 		bool L_1 = V_2;
@@ -4029,58 +4029,58 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_UpdateJoints_mB277047A70
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:518>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:518>
 		goto IL_00bf;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:520>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:520>
 		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2;
 		L_2 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:521>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:521>
 		int32_t L_3;
 		L_3 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(1, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:522>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:522>
 		bool L_4 = ___2_debugDrawJoints;
 		int32_t L_5 = ___3_velocityType;
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_6;
 		L_6 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), 1, NULL);
 		HandGameObjects_UpdateJoint_mB840BB39B7A0EFB43A5850C7B20582F95498D759(__this, L_4, L_5, L_6, (&V_0), (&V_1), (bool)1, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:523>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:523>
 		bool L_7 = ___2_debugDrawJoints;
 		int32_t L_8 = ___3_velocityType;
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_9;
 		L_9 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), 2, NULL);
 		HandGameObjects_UpdateJoint_mB840BB39B7A0EFB43A5850C7B20582F95498D759(__this, L_7, L_8, L_9, (&V_0), (&V_1), (bool)0, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:525>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:525>
 		V_3 = 0;
 		goto IL_00b2;
 	}
 
 IL_004d:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:529>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:529>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_10 = V_0;
 		V_4 = L_10;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:530>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:530>
 		int32_t L_11 = V_3;
 		V_5 = L_11;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:531>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:531>
 		int32_t L_12;
 		L_12 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(1, NULL);
 		V_1 = L_12;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:533>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:533>
 		int32_t L_13 = V_5;
 		int32_t L_14;
 		L_14 = XRHandJointIDUtility_GetBackJointID_m944463FBA57D581AFBF5A68F7CA59FC1673F386F(L_13, NULL);
 		int32_t L_15;
 		L_15 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(L_14, NULL);
 		V_6 = L_15;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:534>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:534>
 		int32_t L_16 = V_5;
 		int32_t L_17;
 		L_17 = XRHandJointIDUtility_GetFrontJointID_mDAAB2FBD81037762DB147BA18C1381192A2A7313(L_16, NULL);
@@ -4092,7 +4092,7 @@ IL_004d:
 
 IL_0079:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:538>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:538>
 		bool L_19 = ___2_debugDrawJoints;
 		int32_t L_20 = ___3_velocityType;
 		int32_t L_21 = V_7;
@@ -4101,14 +4101,14 @@ IL_0079:
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_23;
 		L_23 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), L_22, NULL);
 		HandGameObjects_UpdateJoint_mB840BB39B7A0EFB43A5850C7B20582F95498D759(__this, L_19, L_20, L_23, (&V_4), (&V_1), (bool)1, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:536>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:536>
 		int32_t L_24 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 	}
 
 IL_009e:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:535>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:535>
 		int32_t L_25 = V_7;
 		int32_t L_26 = V_6;
 		V_8 = (bool)((((int32_t)((((int32_t)L_25) > ((int32_t)L_26))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -4119,14 +4119,14 @@ IL_009e:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:527>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:527>
 		int32_t L_28 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_28, 1));
 	}
 
 IL_00b2:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:526>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:526>
 		int32_t L_29 = V_3;
 		V_9 = (bool)((((int32_t)((((int32_t)L_29) > ((int32_t)4))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		bool L_30 = V_9;
@@ -4138,11 +4138,11 @@ IL_00b2:
 
 IL_00bf:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:541>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:541>
 		return;
 	}
 }
-// Method Definition Index: 119147
+// Method Definition Index: 119196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_UpdateJoint_mB840BB39B7A0EFB43A5850C7B20582F95498D759 (HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* __this, bool ___0_debugDrawJoints, int32_t ___1_velocityType, XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 ___2_joint, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___3_parentPose, int32_t* ___4_parentIndex, bool ___5_cacheParentPose, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4174,7 +4174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_UpdateJoint_mB840BB39B7A
 	int32_t G_B7_0 = 0;
 	int32_t G_B14_0 = 0;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:551>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:551>
 		int32_t L_0;
 		L_0 = XRHandJoint_get_id_m22F4DAECB98383D196AA9549A8682B73270AB394((&___2_joint), NULL);
 		V_3 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
@@ -4185,19 +4185,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_UpdateJoint_mB840BB39B7A
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:552>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:552>
 		goto IL_020a;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:554>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:554>
 		int32_t L_2;
 		L_2 = XRHandJoint_get_id_m22F4DAECB98383D196AA9549A8682B73270AB394((&___2_joint), NULL);
 		int32_t L_3;
 		L_3 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:555>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:555>
 		JointVisualizerU5BU5D_tF99433B758325E9EBC0469834FEFB3EEE45EDDBC* L_4 = __this->___m_JointVisualizers;
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
@@ -4207,7 +4207,7 @@ IL_0014:
 		L_8 = XRHandJoint_get_trackingState_mD1202D64E796D92C38FA87BD02DFBD58AF5E4696_inline((&___2_joint), NULL);
 		NullCheck(L_7);
 		JointVisualizer_NotifyTrackingState_mCCD7ED9A219A0091AC6B4701085854B623A916D0(L_7, L_8, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:557>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:557>
 		bool L_9;
 		L_9 = XRHandJoint_TryGetPose_m1AA1E69E7753E1CC4E64F8649751BF7D30CE113E((&___2_joint), (&V_1), NULL);
 		V_4 = (bool)((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
@@ -4218,13 +4218,13 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:558>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:558>
 		goto IL_020a;
 	}
 
 IL_004d:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:560>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:560>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_11 = __this->___m_DrawJoints;
 		int32_t L_12 = V_0;
 		NullCheck(L_11);
@@ -4237,7 +4237,7 @@ IL_004d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = L_16.___position;
 		NullCheck(L_15);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_15, L_17, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:561>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:561>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_18 = __this->___m_DrawJoints;
 		int32_t L_19 = V_0;
 		NullCheck(L_18);
@@ -4250,7 +4250,7 @@ IL_004d:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_24 = L_23.___rotation;
 		NullCheck(L_22);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_22, L_24, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:563>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:563>
 		bool L_25 = ___0_debugDrawJoints;
 		if (!L_25)
 		{
@@ -4279,7 +4279,7 @@ IL_0092:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:565>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:565>
 		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_28 = ((HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_29 = __this->___m_DrawJoints;
@@ -4296,7 +4296,7 @@ IL_0092:
 		L_35 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_34, NULL);
 		NullCheck(L_28);
 		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_35);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:566>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:566>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_36 = ((HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_37 = __this->___m_DrawJoints;
 		int32_t L_38 = V_0;
@@ -4311,7 +4311,7 @@ IL_0092:
 		L_42 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_41, NULL);
 		NullCheck(L_36);
 		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_42);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:567>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:567>
 		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_43 = __this->___m_Lines;
 		int32_t L_44 = V_0;
 		NullCheck(L_43);
@@ -4324,7 +4324,7 @@ IL_0092:
 
 IL_00e9:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:570>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:570>
 		bool L_48 = ___5_cacheParentPose;
 		V_6 = L_48;
 		bool L_49 = V_6;
@@ -4334,11 +4334,11 @@ IL_00e9:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:572>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:572>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_50 = ___3_parentPose;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_51 = V_1;
 		*(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)L_50 = L_51;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:573>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:573>
 		int32_t* L_52 = ___4_parentIndex;
 		int32_t L_53 = V_0;
 		*((int32_t*)L_52) = (int32_t)L_53;
@@ -4346,7 +4346,7 @@ IL_00e9:
 
 IL_00ff:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:576>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:576>
 		int32_t L_54 = ___1_velocityType;
 		if ((((int32_t)L_54) == ((int32_t)2)))
 		{
@@ -4381,7 +4381,7 @@ IL_0115:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:578>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:578>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_61 = __this->___m_VelocityParents;
 		int32_t L_62 = V_0;
 		NullCheck(L_61);
@@ -4394,7 +4394,7 @@ IL_0115:
 		L_66 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		NullCheck(L_65);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_65, L_66, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:579>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:579>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_67 = __this->___m_VelocityParents;
 		int32_t L_68 = V_0;
 		NullCheck(L_67);
@@ -4407,7 +4407,7 @@ IL_0115:
 		L_72 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		NullCheck(L_71);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_71, L_72, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:581>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:581>
 		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_73 = ((HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_74 = ((HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
@@ -4429,7 +4429,7 @@ IL_0115:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_82 = V_8;
 		NullCheck(L_73);
 		(L_73)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_82);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:582>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:582>
 		int32_t L_83 = ___1_velocityType;
 		V_9 = (bool)((((int32_t)L_83) == ((int32_t)0))? 1 : 0);
 		bool L_84 = V_9;
@@ -4439,7 +4439,7 @@ IL_0115:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:584>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:584>
 		bool L_85;
 		L_85 = XRHandJoint_TryGetLinearVelocity_m3BC24DBDEB210B51568D21317B1B3574A6B57F6B((&___2_joint), (&V_10), NULL);
 		V_11 = L_85;
@@ -4450,7 +4450,7 @@ IL_0115:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:585>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:585>
 		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_87 = ((HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
 		NullCheck(L_87);
@@ -4469,7 +4469,7 @@ IL_01b3:
 
 IL_01b6:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:587>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:587>
 		int32_t L_92 = ___1_velocityType;
 		V_12 = (bool)((((int32_t)L_92) == ((int32_t)1))? 1 : 0);
 		bool L_93 = V_12;
@@ -4479,7 +4479,7 @@ IL_01b6:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:589>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:589>
 		bool L_94;
 		L_94 = XRHandJoint_TryGetAngularVelocity_mA486ED68AE5883EC4EE22A4403457E5F3F64CF63((&___2_joint), (&V_13), NULL);
 		V_14 = L_94;
@@ -4490,7 +4490,7 @@ IL_01b6:
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:590>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:590>
 		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_96 = ((HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
 		NullCheck(L_96);
@@ -4511,7 +4511,7 @@ IL_01fc:
 
 IL_01fd:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:593>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:593>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_102 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_103 = ((HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
@@ -4521,11 +4521,11 @@ IL_01fd:
 
 IL_020a:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:595>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:595>
 		return;
 	}
 }
-// Method Definition Index: 119149
+// Method Definition Index: 119198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects__cctor_m835BF4D1A4C12B4DDEF975310D4BAF84BD942607 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4536,14 +4536,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects__cctor_m835BF4D1A4C12B4D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:362>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:362>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_0 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)2);
 		((HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var))->___s_LinePointsReuse = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var))->___s_LinePointsReuse), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 119150
+// Method Definition Index: 119199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_U3C_ctorU3Eg__AssignJointU7C9_0_m575A421A248D5F6675FCCC76499CBDE8C34DD533 (HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46* __this, int32_t ___0_jointId, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_jointDrivenTransform, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___2_drawJointsParent, U3CU3Ec__DisplayClass9_0_t8AEFDB4D0A70C55D5D2A2E10275702C14B218220* ___3_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4564,12 +4564,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_U3C_ctorU3Eg__AssignJoin
 	memset((&V_3), 0, sizeof(V_3));
 	bool V_4 = false;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:379>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:379>
 		int32_t L_0 = ___0_jointId;
 		int32_t L_1;
 		L_1 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:380>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:380>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_2 = __this->___m_DrawJoints;
 		int32_t L_3 = V_0;
 		U3CU3Ec__DisplayClass9_0_t8AEFDB4D0A70C55D5D2A2E10275702C14B218220* L_4 = ___3_p;
@@ -4579,7 +4579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_U3C_ctorU3Eg__AssignJoin
 		L_6 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_5, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
 		NullCheck(L_2);
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(L_3), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_6);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:381>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:381>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_7 = __this->___m_DrawJoints;
 		int32_t L_8 = V_0;
 		NullCheck(L_7);
@@ -4591,7 +4591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_U3C_ctorU3Eg__AssignJoin
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = ___2_drawJointsParent;
 		NullCheck(L_11);
 		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_11, L_12, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:382>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:382>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_13 = __this->___m_DrawJoints;
 		int32_t L_14 = V_0;
 		NullCheck(L_13);
@@ -4602,7 +4602,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_U3C_ctorU3Eg__AssignJoin
 		L_18 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_17), NULL);
 		NullCheck(L_16);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_16, L_18, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:384>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:384>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_19 = __this->___m_VelocityParents;
 		int32_t L_20 = V_0;
 		U3CU3Ec__DisplayClass9_0_t8AEFDB4D0A70C55D5D2A2E10275702C14B218220* L_21 = ___3_p;
@@ -4611,7 +4611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_U3C_ctorU3Eg__AssignJoin
 		L_23 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_22, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
 		NullCheck(L_19);
 		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(L_20), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_23);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:385>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:385>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_24 = __this->___m_VelocityParents;
 		int32_t L_25 = V_0;
 		NullCheck(L_24);
@@ -4623,7 +4623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_U3C_ctorU3Eg__AssignJoin
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29 = ___1_jointDrivenTransform;
 		NullCheck(L_28);
 		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_28, L_29, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:387>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:387>
 		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_30 = __this->___m_Lines;
 		int32_t L_31 = V_0;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_32 = __this->___m_DrawJoints;
@@ -4636,7 +4636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_U3C_ctorU3Eg__AssignJoin
 		L_36 = GameObject_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mE703918F1B04E115CCE78A5FF891A12648B04D75(L_35, GameObject_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mE703918F1B04E115CCE78A5FF891A12648B04D75_RuntimeMethod_var);
 		NullCheck(L_30);
 		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(L_31), (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D*)L_36);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:388>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:388>
 		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_37 = __this->___m_Lines;
 		int32_t L_38 = V_0;
 		NullCheck(L_37);
@@ -4654,7 +4654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_U3C_ctorU3Eg__AssignJoin
 		float L_46 = V_2;
 		NullCheck(L_40);
 		LineRenderer_set_startWidth_m3899722E198D636DB216CB61C980214707069F4A(L_40, L_46, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:389>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:389>
 		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_47 = ((HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_48 = ((HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
@@ -4669,7 +4669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_U3C_ctorU3Eg__AssignJoin
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52 = V_3;
 		NullCheck(L_47);
 		(L_47)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_52);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:390>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:390>
 		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_53 = __this->___m_Lines;
 		int32_t L_54 = V_0;
 		NullCheck(L_53);
@@ -4678,7 +4678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_U3C_ctorU3Eg__AssignJoin
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_57 = ((HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_tFBE54BD64926AA0756141AD1015A70E946F9CB46_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
 		NullCheck(L_56);
 		LineRenderer_SetPositions_m7F7B7B54428437D0BF5256D4C82F92180B577B02(L_56, L_57, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:392>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:392>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_58 = __this->___m_DrawJoints;
 		int32_t L_59 = V_0;
 		NullCheck(L_58);
@@ -4695,7 +4695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_U3C_ctorU3Eg__AssignJoin
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:393>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:393>
 		JointVisualizerU5BU5D_tF99433B758325E9EBC0469834FEFB3EEE45EDDBC* L_64 = __this->___m_JointVisualizers;
 		int32_t L_65 = V_0;
 		JointVisualizer_tC8B82255EE66115063ED497AA50FAE8905AC41A6* L_66 = V_1;
@@ -4706,7 +4706,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_U3C_ctorU3Eg__AssignJoin
 
 IL_00fc:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/HandVisualizer.cs:394>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/HandVisualizer.cs:394>
 		return;
 	}
 }
@@ -4726,7 +4726,7 @@ IL_00fc:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 119151
+// Method Definition Index: 119200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointVisualizer_NotifyTrackingState_mCCD7ED9A219A0091AC6B4701085854B623A916D0 (JointVisualizer_tC8B82255EE66115063ED497AA50FAE8905AC41A6* __this, int32_t ___0_jointTrackingState, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -4736,10 +4736,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointVisualizer_NotifyTrackingState_mCCD
 	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B5_0 = NULL;
 	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* G_B5_1 = NULL;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/JointVisualizer.cs:23>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/JointVisualizer.cs:23>
 		int32_t L_0 = ___0_jointTrackingState;
 		V_0 = (bool)((((int32_t)((int32_t)((int32_t)L_0&((int32_t)32)))) == ((int32_t)((int32_t)32)))? 1 : 0);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/JointVisualizer.cs:24>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/JointVisualizer.cs:24>
 		bool L_1 = __this->___m_HighFidelityJoint;
 		bool L_2 = V_0;
 		V_1 = (bool)((((int32_t)L_1) == ((int32_t)L_2))? 1 : 0);
@@ -4750,13 +4750,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointVisualizer_NotifyTrackingState_mCCD
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/JointVisualizer.cs:25>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/JointVisualizer.cs:25>
 		goto IL_003d;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/JointVisualizer.cs:27>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/JointVisualizer.cs:27>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_4 = __this->___m_JointRenderer;
 		bool L_5 = V_0;
 		if (L_5)
@@ -4784,18 +4784,18 @@ IL_0030:
 	{
 		NullCheck(G_B5_1);
 		Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A(G_B5_1, G_B5_0, NULL);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/JointVisualizer.cs:29>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/JointVisualizer.cs:29>
 		bool L_8 = V_0;
 		__this->___m_HighFidelityJoint = L_8;
 	}
 
 IL_003d:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/JointVisualizer.cs:30>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/JointVisualizer.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 119152
+// Method Definition Index: 119201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointVisualizer_Start_mA0EAB71A425617FC5ED0E99E33CA10E60B3C4EB3 (JointVisualizer_tC8B82255EE66115063ED497AA50FAE8905AC41A6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4807,7 +4807,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointVisualizer_Start_mA0EAB71A425617FC5
 	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* V_0 = NULL;
 	bool V_1 = false;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/JointVisualizer.cs:34>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/JointVisualizer.cs:34>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_JointVisual;
 		NullCheck(L_0);
 		bool L_1;
@@ -4820,7 +4820,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointVisualizer_Start_mA0EAB71A425617FC5
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/JointVisualizer.cs:35>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/JointVisualizer.cs:35>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_3 = V_0;
 		__this->___m_JointRenderer = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_JointRenderer), (void*)L_3);
@@ -4828,11 +4828,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointVisualizer_Start_mA0EAB71A425617FC5
 
 IL_0019:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/JointVisualizer.cs:36>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/JointVisualizer.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 119153
+// Method Definition Index: 119202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointVisualizer__ctor_m54341131B17C86C39DA3619C90DDF136DA36EB35 (JointVisualizer_tC8B82255EE66115063ED497AA50FAE8905AC41A6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4848,7 +4848,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointVisualizer__ctor_m54341131B17C86C39
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 119154
+// Method Definition Index: 119203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShaderContainer__ctor_mBF3D9A5274928F94584005218EF2234824D8BC70 (ShaderContainer_t61A276F7325419FA2D77803AC00993ECC005D936* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4859,14 +4859,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShaderContainer__ctor_mBF3D9A5274928F945
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:45>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:45>
 		__this->___useSRPShaderName = (bool)1;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:46>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:46>
 		__this->___scriptableRenderPipelineShaderName = _stringLiteral9B4FEEFA76B93D58B6E47CD9FF76F6E287D0D321;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___scriptableRenderPipelineShaderName), (void*)_stringLiteral9B4FEEFA76B93D58B6E47CD9FF76F6E287D0D321);
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:48>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:48>
 		__this->___useBuiltinShaderName = (bool)1;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:49>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:49>
 		__this->___builtInPipelineShaderName = _stringLiteral2620038B8A71EF21A205CC921576171A3CA9B0F4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___builtInPipelineShaderName), (void*)_stringLiteral2620038B8A71EF21A205CC921576171A3CA9B0F4);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -4881,12 +4881,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShaderContainer__ctor_mBF3D9A5274928F945
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 119155
+// Method Definition Index: 119204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_AutoRefreshPipelineShaders_mF7643C78950B1EA7FBA8649BE6703B176AB9774D (MaterialPipelineHandler_tA2ABECDC2505F9E222BD47D2200FBA678A80D0C0* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:80>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:80>
 		bool L_0 = __this->___m_AutoRefreshShaders;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -4896,17 +4896,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_AutoRefreshPipel
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:81>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:81>
 		MaterialPipelineHandler_SetPipelineShaders_m7873672AF7228D344B6E37C351373A9F92AAD885(__this, NULL);
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:82>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:82>
 		return;
 	}
 }
-// Method Definition Index: 119156
+// Method Definition Index: 119205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_SetPipelineShaders_m7873672AF7228D344B6E37C351373A9F92AAD885 (MaterialPipelineHandler_tA2ABECDC2505F9E222BD47D2200FBA678A80D0C0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4936,7 +4936,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_SetPipelineShade
 	int32_t G_B16_0 = 0;
 	int32_t G_B22_0 = 0;
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:89>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:89>
 		List_1_tC04B317081938032FB151B966C4A11D65A194FAA* L_0 = __this->___m_ShaderContainers;
 		V_1 = (bool)((((RuntimeObject*)(List_1_tC04B317081938032FB151B966C4A11D65A194FAA*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_1 = V_1;
@@ -4946,13 +4946,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_SetPipelineShade
 		}
 	}
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:90>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:90>
 		goto IL_012e;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:92>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:92>
 		il2cpp_codegen_runtime_class_init_inline(GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
 		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_2;
 		L_2 = GraphicsSettings_get_currentRenderPipeline_mEC94DC23DE4F901D6A629E2DE882982686AF75F1(NULL);
@@ -4960,7 +4960,7 @@ IL_0013:
 		bool L_3;
 		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:94>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:94>
 		List_1_tC04B317081938032FB151B966C4A11D65A194FAA* L_4 = __this->___m_ShaderContainers;
 		NullCheck(L_4);
 		Enumerator_t2E65BDB4B566F5DDED0A18FA37BBAB5C44B6C7AB L_5;
@@ -4985,11 +4985,11 @@ FINALLY_011f:
 
 IL_0031_1:
 			{
-				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:94>
+				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:94>
 				ShaderContainer_t61A276F7325419FA2D77803AC00993ECC005D936* L_6;
 				L_6 = Enumerator_get_Current_m62F727929C6C0AB13C2D9F541354238CFA20AF5E_inline((&V_2), Enumerator_get_Current_m62F727929C6C0AB13C2D9F541354238CFA20AF5E_RuntimeMethod_var);
 				V_3 = L_6;
-				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:96>
+				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:96>
 				ShaderContainer_t61A276F7325419FA2D77803AC00993ECC005D936* L_7 = V_3;
 				NullCheck(L_7);
 				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8 = L_7->___material;
@@ -5004,13 +5004,13 @@ IL_0031_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:97>
+				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:97>
 				goto IL_0111_1;
 			}
 
 IL_0051_1:
 			{
-				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:100>
+				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:100>
 				ShaderContainer_t61A276F7325419FA2D77803AC00993ECC005D936* L_11 = V_3;
 				NullCheck(L_11);
 				bool L_12 = L_11->___useBuiltinShaderName;
@@ -5040,7 +5040,7 @@ IL_0061_1:
 IL_006c_1:
 			{
 				V_4 = G_B9_0;
-				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:101>
+				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:101>
 				ShaderContainer_t61A276F7325419FA2D77803AC00993ECC005D936* L_18 = V_3;
 				NullCheck(L_18);
 				bool L_19 = L_18->___useSRPShaderName;
@@ -5070,7 +5070,7 @@ IL_007e_1:
 IL_0089_1:
 			{
 				V_5 = G_B12_0;
-				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:104>
+				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:104>
 				ShaderContainer_t61A276F7325419FA2D77803AC00993ECC005D936* L_25 = V_3;
 				NullCheck(L_25);
 				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_26 = L_25->___material;
@@ -5078,7 +5078,7 @@ IL_0089_1:
 				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_27;
 				L_27 = Material_get_shader_m8B0C11AE6F2AD7DE30AF52D3195EB716F7A71983(L_26, NULL);
 				V_6 = L_27;
-				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:107>
+				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:107>
 				bool L_28 = V_0;
 				if (!L_28)
 				{
@@ -5120,14 +5120,14 @@ IL_00b1_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:109>
+				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:109>
 				ShaderContainer_t61A276F7325419FA2D77803AC00993ECC005D936* L_35 = V_3;
 				NullCheck(L_35);
 				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_36 = L_35->___material;
 				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_37 = V_4;
 				NullCheck(L_36);
 				Material_set_shader_mBD3A0D9AB14DE2F7CD5F2775E9AD58E15424C171(L_36, L_37, NULL);
-				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:110>
+				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:110>
 				ShaderContainer_t61A276F7325419FA2D77803AC00993ECC005D936* L_38 = V_3;
 				NullCheck(L_38);
 				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_39 = L_38->___material;
@@ -5137,7 +5137,7 @@ IL_00b1_1:
 
 IL_00d5_1:
 			{
-				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:112>
+				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:112>
 				bool L_40 = V_0;
 				if (L_40)
 				{
@@ -5179,14 +5179,14 @@ IL_00ee_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:114>
+				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:114>
 				ShaderContainer_t61A276F7325419FA2D77803AC00993ECC005D936* L_47 = V_3;
 				NullCheck(L_47);
 				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_48 = L_47->___material;
 				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_49 = V_5;
 				NullCheck(L_48);
 				Material_set_shader_mBD3A0D9AB14DE2F7CD5F2775E9AD58E15424C171(L_48, L_49, NULL);
-				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:115>
+				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:115>
 				ShaderContainer_t61A276F7325419FA2D77803AC00993ECC005D936* L_50 = V_3;
 				NullCheck(L_50);
 				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_51 = L_50->___material;
@@ -5199,7 +5199,7 @@ IL_0110_1:
 
 IL_0111_1:
 			{
-				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:94>
+				//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:94>
 				bool L_52;
 				L_52 = Enumerator_MoveNext_m5438A52674B18DEA59DFF16B07D1D4B462488AE7((&V_2), Enumerator_MoveNext_m5438A52674B18DEA59DFF16B07D1D4B462488AE7_RuntimeMethod_var);
 				if (L_52)
@@ -5219,23 +5219,23 @@ IL_0111_1:
 
 IL_012e:
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:118>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:118>
 		return;
 	}
 }
-// Method Definition Index: 119157
+// Method Definition Index: 119206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_MarkMaterialModified_mE08A8491F280E85383C575D70B4A11685DA6152B (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:125>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:125>
 		return;
 	}
 }
-// Method Definition Index: 119158
+// Method Definition Index: 119207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler__ctor_m6186061DA5E07762342B2971897B2CB3103A6EE9 (MaterialPipelineHandler_tA2ABECDC2505F9E222BD47D2200FBA678A80D0C0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/April Tag/Scripts/MaterialPipelineHandler.cs:67>
+		//<source_info:C:/Users/madha/Documents/Arena/unity/Assets/Scenes/Arena/Scripts/MaterialPipelineHandler.cs:67>
 		__this->___m_AutoRefreshShaders = (bool)1;
 		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
 		return;

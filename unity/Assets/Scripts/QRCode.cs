@@ -21,6 +21,14 @@ public class QRCodeSpawner : MonoBehaviour
     private float _prefabReferenceSize = 1.0f;
     private readonly Dictionary<Guid, float> _anchorSizes = new Dictionary<Guid, float>();
 
+    [Header("Prefab Offset Settings")]
+    [SerializeField] private Vector3 positionOffset = Vector3.zero;
+    [Tooltip("Position offset relative to QR code (in QR's local space)")]
+    [SerializeField] private Vector3 rotationOffset = Vector3.zero;
+    [Tooltip("Rotation offset in Euler angles (degrees)")]
+    [SerializeField] private float scaleOffset = 1.0f;
+    [Tooltip("Scale multiplier applied to the prefab (1.0 = no change)")]
+
     private async void Awake()
     {
         if (cameraRig == null) cameraRig = FindFirstObjectByType<OVRCameraRig>();
@@ -151,35 +159,31 @@ public class QRCodeSpawner : MonoBehaviour
 
             if (!_instances.TryGetValue(id, out var go))
             {
-                go = Instantiate(prefab, worldPos, worldRot);
+                ApplyOffsets(worldPos, worldRot, scaleFactor, out Vector3 finalPos, out Quaternion finalRot, out Vector3 finalScale);
+                go = Instantiate(prefab, finalPos, finalRot);
                 go.name = string.IsNullOrEmpty(payloadText) ? $"QR_{id}" : $"QR_{SanitizeName(payloadText)}_{id}";
                 
                 // Disable any cameras in the spawned object to prevent view switching
                 DisableCamerasInObject(go);
                 
-                // Always apply scale if we have a valid size
-                if (qrSizeForScale > 0f)
-                {
-                    go.transform.localScale = Vector3.one * scaleFactor;
-                    Debug.Log($"Applied scale factor {scaleFactor:F3} to QR object (QR size: {qrSizeForScale}m, prefab ref: {_prefabReferenceSize}m)");
-                }
+                // Apply combined scale (QR-based scale * user offset scale)
+                go.transform.localScale = finalScale;
+                Debug.Log($"Applied scale: {finalScale.x:F3} (base: {scaleFactor:F3}, offset: {scaleOffset:F3})");
                 
                 _instances.Add(id, go);
                 Debug.Log($"QR detected: \"{payloadText}\" ({id})");
             }
             else
             {
-                go.transform.SetPositionAndRotation(worldPos, worldRot);
+                ApplyOffsets(worldPos, worldRot, scaleFactor, out Vector3 finalPos, out Quaternion finalRot, out Vector3 finalScale);
+                go.transform.SetPositionAndRotation(finalPos, finalRot);
                 
-                // Always update scale if we have a valid size and it differs from current scale
-                if (qrSizeForScale > 0f)
+                // Always update scale with combined scale (QR-based * offset)
+                Vector3 currentScale = go.transform.localScale;
+                if ((currentScale - finalScale).magnitude > 0.001f)
                 {
-                    float currentScale = go.transform.localScale.x;
-                    if (Mathf.Abs(currentScale - scaleFactor) > 0.001f)
-                    {
-                        go.transform.localScale = Vector3.one * scaleFactor;
-                        Debug.Log($"Updated scale factor from {currentScale:F3} to {scaleFactor:F3} for existing QR object (QR size: {qrSizeForScale}m)");
-                    }
+                    go.transform.localScale = finalScale;
+                    Debug.Log($"Updated scale from {currentScale} to {finalScale.x:F3} (base: {scaleFactor:F3}, offset: {scaleOffset:F3})");
                 }
             }
         }
@@ -353,6 +357,23 @@ public class QRCodeSpawner : MonoBehaviour
         // Default: assume 1 Unity unit = 1 meter
         Debug.LogWarning($"[QR SCALING] Could not determine prefab reference size, using default 1.0 meters");
         return 1.0f;
+    }
+
+    private void ApplyOffsets(Vector3 qrWorldPos, Quaternion qrWorldRot, float baseScale, out Vector3 finalPos, out Quaternion finalRot, out Vector3 finalScale)
+    {
+        // Apply rotation offset (convert Euler to Quaternion and combine)
+        Quaternion offsetRotQuat = Quaternion.Euler(rotationOffset);
+        finalRot = qrWorldRot * offsetRotQuat;
+        
+        // Apply position offset in QR's local space
+        // This means offset is relative to QR orientation, not world space
+        // IMPORTANT: This offset is in world units (meters) and is independent of object scale
+        // The offset is applied to the object's pivot point, not necessarily its visual center
+        finalPos = qrWorldPos + qrWorldRot * positionOffset;
+        
+        // Apply scale offset (multiply base scale by offset - uniform scaling)
+        float combinedScale = baseScale * scaleOffset;
+        finalScale = Vector3.one * combinedScale;
     }
 
     // Tiny pools to avoid GC churn
