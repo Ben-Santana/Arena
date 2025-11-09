@@ -19,6 +19,10 @@ public class CarReplayController : MonoBehaviour
     [Header("Scale Settings")]
     [SerializeField] private float positionScale = 1.0f; // Let Arena handle scaling via parent transform
 
+    [Header("Rotation Offset")]
+    [SerializeField] private Vector3 rotationOffset = Vector3.zero; // Rotation offset in degrees (X, Y, Z)
+    [Tooltip("Apply rotation offset to all cars in Euler angles (degrees)")]
+
     [Header("Debug")]
     [SerializeField] private bool autoPlay = true;
     [SerializeField] private bool showDebugInfo = true;
@@ -93,7 +97,7 @@ public class CarReplayController : MonoBehaviour
 
                 // Add CarController
                 CarController controller = carGO.AddComponent<CarController>();
-                controller.Initialize(playerName, playerData, positionScale, team0Material, team1Material);
+                controller.Initialize(playerName, playerData, positionScale, team0Material, team1Material, rotationOffset);
 
                 carControllers[playerName] = controller;
 
@@ -188,6 +192,7 @@ public class CarController : MonoBehaviour
     private float positionScale;
     private Material team0Material;
     private Material team1Material;
+    private Vector3 rotationOffset;
 
     private List<CarPosition> sortedPositions = new List<CarPosition>();
     private int currentPositionIndex = 0;
@@ -195,13 +200,14 @@ public class CarController : MonoBehaviour
 
     public bool IsActive => isActive;
 
-    public void Initialize(string name, CarPlayerData data, float scale, Material mat0, Material mat1)
+    public void Initialize(string name, CarPlayerData data, float scale, Material mat0, Material mat1, Vector3 rotOffset)
     {
         playerName = name;
         playerData = data;
         positionScale = scale;
         team0Material = mat0;
         team1Material = mat1;
+        rotationOffset = rotOffset;
 
         // Sort positions by time
         sortedPositions = data.positions.OrderBy(p => p.time).ToList();
@@ -349,7 +355,10 @@ public class CarController : MonoBehaviour
             {
                 unityRotation = Quaternion.identity;
             }
-            transform.rotation = unityRotation;
+            
+            // Apply rotation offset
+            Quaternion offsetRotation = Quaternion.Euler(rotationOffset);
+            transform.rotation = unityRotation * offsetRotation;
         }
     }
 
@@ -395,7 +404,10 @@ public class CarController : MonoBehaviour
                 rot2 = Quaternion.Euler(pos2.rotation.pitch, pos2.rotation.yaw, pos2.rotation.roll);
             }
 
-            transform.rotation = Quaternion.Slerp(rot1, rot2, t);
+            // Apply rotation offset after interpolation
+            Quaternion interpolatedRotation = Quaternion.Slerp(rot1, rot2, t);
+            Quaternion offsetRotation = Quaternion.Euler(rotationOffset);
+            transform.rotation = interpolatedRotation * offsetRotation;
         }
     }
 }
