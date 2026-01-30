@@ -18,6 +18,10 @@
     },
     {
       "Type": 0,
+      "Text": "[Unity.InputSystem] - System.Void UnityEngine.InputSystem.FastTouchscreen::.ctor() - High Variable Count of 315"
+    },
+    {
+      "Type": 0,
       "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshPro::GenerateTextMesh() - High Variable Count of 492"
     },
     {
@@ -87,10 +91,6 @@
     {
       "Type": 0,
       "Text": "[UnityEngine.TextCoreTextEngineModule] - UnityEngine.Vector2 UnityEngine.TextCore.Text.TextGenerator::CalculatePreferredValues(System.Single\u0026,UnityEngine.Vector2,System.Boolean,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo) - High Variable Count of 212"
-    },
-    {
-      "Type": 0,
-      "Text": "[Unity.InputSystem] - System.Void UnityEngine.InputSystem.FastTouchscreen::.ctor() - High Variable Count of 315"
     }
   ],
   "CommandLine": "@Library\\Bee\\artifacts\\rsp\\931248673006694518.rsp"

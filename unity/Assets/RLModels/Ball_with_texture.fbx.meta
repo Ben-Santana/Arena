@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ball_Default00_D
-    second: {fileID: 2800000, guid: bcd359d6009aca4c7b0a18e0566fde85, type: 3}
+    second: {fileID: 2800000, guid: 96e42f56baedd154ebe5333db6e42a29, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
